@@ -1,1 +1,15 @@
 theme: jekyll-theme-cayman
+
+exclude: ["script", "vendor", "bower.json", "Gemfile", "Gemfile.lock", "Rakefile", "readme.md", "package.json", "node_modules"]
+markdown: kramdown
+plugins:
+  - jekyll-avatar
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-coffeescript
+  - jekyll-sitemap
+  - jekyll-octicons
+
+sass:
+  style: compressed
+  sass_dir: assets/css/
