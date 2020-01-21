@@ -1,0 +1,225 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: CISSP docs
+  version: rev. 0.9
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Overview
+    output: web, pdf
+    folderitems:
+
+    - title: Foreword
+      url: /index.html
+      output: web, pdf
+      type: homepage
+
+    - title: About the CISSP exam
+      url: /about_exam.html
+      output: web, pdf
+
+    - title: Tips for the exam
+      url: /tips_exam.html
+      output: web, pdf
+
+    - title: About the theme author
+      url: /about_theme_author.html
+      output: web, pdf
+
+    - title: About the author
+      url: /about.html
+      output: web, pdf
+
+  - title: 1. Security and Risk Management
+    output: web, pdf
+    folderitems:
+
+    - title: Notes
+      url: /1_notes.html
+      output: web, pdf
+
+    - title: Mindmaps
+      url: /1_mindmaps.html
+      output: web, pdf
+
+  - title: 2. Asset Security
+    output: web, pdf
+    folderitems:
+
+    - title: Notes
+      url: /2_notes.html
+      output: web, pdf
+
+    - title: Mindmaps
+      url: /2_mindmaps.html
+      output: web, pdf
+
+  - title: 3. Security Architecture and Engineering
+    output: web, pdf
+    folderitems:
+
+    - title: Notes
+      url: /3_notes.html
+      output: web, pdf
+
+    - title: Mindmaps
+      url: /3_mindmaps.html
+      output: web, pdf
+
+  - title: 4. Communications and Network Security
+    output: web, pdf
+    folderitems:
+
+    - title: Notes
+      url: /4_notes.html
+      output: web, pdf
+
+    - title: Mindmaps
+      url: /4_mindmaps.html
+      output: web, pdf
+
+  - title: 5. Identity and Access Management
+    output: web, pdf
+    folderitems:
+
+    - title: Notes
+      url: /5_notes.html
+      output: web, pdf
+
+    - title: Mindmaps
+      url: /5_mindmaps.html
+      output: web, pdf
+
+  - title: 6. Security Assessment and Testing
+    output: web, pdf
+    folderitems:
+
+    - title: Notes
+      url: /6_notes.html
+      output: web, pdf
+
+    - title: Mindmaps
+      url: /6_mindmaps.html
+      output: web, pdf
+
+  - title: 7. Security Operations
+    output: web, pdf
+    folderitems:
+
+    - title: Notes
+      url: /7_notes.html
+      output: web, pdf
+
+    - title: Mindmaps
+      url: /7_mindmaps.html
+      output: web, pdf
+
+  - title: 8. Software Development Security
+    output: web, pdf
+    folderitems:
+
+    - title: Notes
+      url: /8_notes.html
+      output: web, pdf
+
+    - title: Mindmaps
+      url: /8_mindmaps.html
+      output: web, pdf
+
+  - title: Resources
+    output: web, pdf
+
+    folderitems:
+
+    - title: Books
+      url: /mydoc_troubleshooting.html
+      output: web, pdf
+
+    - title: Flashcards
+      url: /mydoc_troubleshooting.html
+      output: web, pdf
+
+    - title: Links
+      url: /links.html
+      output: web, pdf
+
+    - title: Social networks
+      url: /mydoc_troubleshooting.html
+      output: web, pdf
+
+    - title: Test Engines/Mobile Apps
+      url: /mydoc_troubleshooting.html
+      output: web, pdf
+
+    - title: Youtube
+      url: /mydoc_troubleshooting.html
+      output: web, pdf
+
+
+  - title: Tags
+    url: /tag_about.html
+    output: web
+    folderitems:
+
+#    - title: Tag archives overview
+#      url: /mydoc_tag_archives_overview.html
+#      output: web
+
+#      subfolders:
+#    - title: Tags
+#      output: web
+#      subfolderitems:
+
+    - title: about
+      url: /tag_about.html
+      output: web
+
+    - title: domain_1
+      url: /tag_domain_1.html
+      output: web
+
+    - title: domain_2
+      url: /tag_domain_2.html
+      output: web
+
+    - title: domain_2
+      url: /tag_domain_3.html
+      output: web
+
+    - title: domain_4
+      url: /tag_domain_4.html
+      output: web
+
+    - title: domain_5
+      url: /tag_domain_5.html
+      output: web
+
+    - title: domain_6
+      url: /tag_domain_6.html
+      output: web
+
+    - title: domain_7
+      url: /tag_domain_7.html
+      output: web
+
+    - title: domain_8
+      url: /tag_domain_8.html
+      output: web
+
+    - title: news
+      url: /tag_news.html
+      output: web
