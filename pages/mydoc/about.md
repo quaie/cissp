@@ -24,9 +24,8 @@ various industry certifications (not too many though :))<br>
 
 
 
-thus being said, it is clear that Domain 4 was the easiest for me to digest; of course that was a false feeling, as I had to learn the scientific explanations for notions "clear as daylight for me" - ipv4, OSI layer, etc, etc
 
 ```
-I have made a short description of my backround to explain the bias of the notes - some subjects may be already known to me, therefore they will not be listed/explained here.
+I have made a short description of my backround to explain the bias of the notes - some subjects may be already known to me, therefore they will not be listed/explained here in detail.
 ```
 {% include links.html %}
