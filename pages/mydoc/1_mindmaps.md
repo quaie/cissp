@@ -11,7 +11,7 @@ folder: mydoc
 
 ### Various mindmaps
 
-[law systems](https://app.gitmind.com/doc/6ae44959).
+[law systems](https://app.gitmind.com/doc/6ae44959){:target="_blank"}.
 
 [title mindmap #1](https://github.com/tomjoht/jekylldoctheme-separate-outputs).
 

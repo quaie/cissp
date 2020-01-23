@@ -150,7 +150,7 @@ entries:
       output: web, pdf
 
     - title: Flashcards
-      url: /mydoc_troubleshooting.html
+      url: /flashcards.html
       output: web, pdf
 
     - title: Links

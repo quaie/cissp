@@ -25,6 +25,8 @@ The whole idea is to have it formatted in an optimal layout for [skimming](http:
 
 **Because** nobody can tell (at least officially :)) HOW THE EXAM REALLY IS. This forces the students to learn (allmost) all details in the books (and there are plenty!).
 
+**Because** I stumbled upon [this](https://simonowens157.gitlab.io/cissp/){:target="_blank"} and liked the idea.
+
 **Because** [insert here reason]
 
 And last (but not least) - BECAUSE WHY NOT?!
@@ -36,6 +38,9 @@ Maybe. Maybe not. I dunno.
 
 It helps me to organise the information in a visual way which makes it easier for me to quickly repeat/digest. Maybe you're more the video type or the "read the book" type. Then it won't work for you.
 
+```
+Feel free to fork and expand the content on your own or make a pull request if you have some useful info which could find its place here.
+```
 
 ## Disclaimer
 
