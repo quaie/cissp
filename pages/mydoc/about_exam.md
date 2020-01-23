@@ -1,5 +1,5 @@
 ---
-title: About the author
+title: About the CISSP exam
 #keywords: documentation theme, jekyll, technical writers, help authoring tools, hat replacements
 last_updated: 20 January 2020
 tags: [about]
@@ -9,24 +9,17 @@ permalink: about_exam.html
 folder: mydoc
 ---
 
-20 years IT experience<br>
-started as helpdesk @ an ISP, at the beginning of Y2K<br>
-continued as network engineer<br>
-switched to app operations/engineering<br>
-Python/Bash savvy<br>
-Linux guy (although my workstation was almost always Window$ :))
-
-
-
-BSc IT & Computing<br>
-currently studying MSc Cybersecurity<br>
-various industry certifications (not too many though :))<br>
-
-
-
-thus being said, it is clear that Domain 4 was the easiest for me to digest; of course that was a false feeling, as I had to learn the scientific explanations for notions "clear as daylight for me" - ipv4, OSI layer, etc, etc
-
 ```
-I have made a short description of my backround to explain the bias of the notes - some subjects may be already known to me, therefore they will not be listed/explained here.
+official information [here](https://www.isc2.org/Certifications/-/media/CC72396FD9F34D3AAF073BF2AADB185C.ashx)
 ```
+
+- pay the USD 699 (or the price for the country where the exam is taken)
+- minimum 5 yrs work experience
+- have another CISSP endorsing you
+- pass the [exam](https://www.isc2.org/certifications/CISSP/CISSP-CAT){:target="_blank"}:
+* minimum 700 out of 1000 possible points
+* answer 100 questions or up to 150 in max 3 hrs
+
+* format changes all three years - 2015, [2018](https://www.globalknowledge.com/ca-en/resources/resource-library/articles/everything-you-need-to-know-about-the-cissp-exam-changes/){:target="_blank"}, next in [2021](https://www.reddit.com/r/cissp/comments/ea6r2g/what_to_know_about_the_next_cissp_refresh_in_2021/){:target="_blank"}
+
 {% include links.html %}
