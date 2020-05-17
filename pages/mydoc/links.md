@@ -1,7 +1,7 @@
 ---
 title: Links
 #keywords: documentation theme, jekyll, technical writers, help authoring tools, hat replacements
-last_updated: 21 January 2020
+last_updated: 17 May 2020
 tags: [resources]
 #summary: "tips & tricks for the exam - taken from all over the web"
 sidebar: mydoc_sidebar
@@ -20,6 +20,7 @@ p&utm_name=iossmf){:target="_blank"}
 
 - [success story](https://satiex.net/2019/10/25/certified-information-systems-security-professional/){:target="_blank"}
 - [some text](https://luc.desfosses.fr/CISSP/){:target="_blank"}
+- [success story](https://www.securityartwork.es/2019/04/05/cissp-certificate-ii-personal-experience/){:target="_blank"}
 
 
 {% include links.html %}
