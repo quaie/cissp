@@ -3,9 +3,9 @@ title: Test engines & mobile apps
 #keywords: documentation theme, jekyll, technical writers, help authoring tools, hat replacements
 last_updated: 20 January 2020
 tags: [resources]
-#summary: "tips & tricks for the exam - taken from all over the web"
+summary: "Mobile Apps + Test Engines"
 sidebar: mydoc_sidebar
-permalink: tests_apps.html
+permalink: resources_apps.html
 folder: mydoc
 ---
 

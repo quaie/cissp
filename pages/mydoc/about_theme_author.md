@@ -1,9 +1,9 @@
 ---
 title: About the theme's author
 keywords: documentation theme, jekyll, technical writers, help authoring tools, hat replacements
-last_updated: July 3, 2016
+last_updated: 17th May 2020
 tags: [about]
-summary: "I have used this theme for projects that I've worked on as a professional technical writer."
+summary: "The original \"about\" page of the Jekyll theme used for this website."
 sidebar: mydoc_sidebar
 permalink: about_theme_author.html
 folder: mydoc

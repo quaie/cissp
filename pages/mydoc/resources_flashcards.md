@@ -5,7 +5,7 @@ last_updated: 23 January 2020
 tags: [resources]
 summary: "Flashcards I found useful"
 sidebar: mydoc_sidebar
-permalink: flashcards.html
+permalink: resources_flashcards.html
 folder: mydoc
 ---
 
