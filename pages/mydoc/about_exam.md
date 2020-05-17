@@ -21,6 +21,7 @@ folder: mydoc
 
 * format changes all three years - 2015, [2018](https://www.globalknowledge.com/ca-en/resources/resource-library/articles/everything-you-need-to-know-about-the-cissp-exam-changes/){:target="_blank"}, next in [2021](https://www.reddit.com/r/cissp/comments/ea6r2g/what_to_know_about_the_next_cissp_refresh_in_2021/){:target="_blank"}
 
+{% comment %}
 #<p><a href="plm"><img src="{{ "images/company_logo.png" }}" alt="Company Logo"/></a></p>
-
+{% endcomment %}
 {% include links.html %}

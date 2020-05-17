@@ -3,7 +3,7 @@ title: Links
 #keywords: documentation theme, jekyll, technical writers, help authoring tools, hat replacements
 last_updated: 17 May 2020
 tags: [resources]
-#summary: "tips & tricks for the exam - taken from all over the web"
+summary: "tips & tricks for the exam - taken from all over the web"
 sidebar: mydoc_sidebar
 permalink: links.html
 folder: mydoc
