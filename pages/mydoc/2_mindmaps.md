@@ -1,7 +1,7 @@
 ---
 title: Mindmaps
 tags: [domain_2]
-keywords: release notes, announcements, what's new, new features
+#keywords: release notes, announcements, what's new, new features
 last_updated: Jan 16, 2020
 summary: "Mindmaps for domain 2"
 sidebar: mydoc_sidebar

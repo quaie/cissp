@@ -14,8 +14,8 @@ folder: mydoc
 - [CISSP @ Reddit](https://www.reddit.com/r/cissp/)
 
 # Discord
-- [Discord Server #1](https://discord.gg/HyzFj94)
-- [Thor Teaches](https://discord.gg/p6H7MNA)
+- [ISC2 CNN](https://discord.gg/HyzFj94)
+- [Thor Teaches study group CISSP CISM PMP](https://discord.gg/p6H7MNA)
 - 
 
 

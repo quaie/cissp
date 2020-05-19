@@ -1,7 +1,7 @@
 ---
 title: Release notes 5.0
 tags: [domain_1]
-keywords: release notes, announcements, what's new, new features
+#keywords: release notes, announcements, what's new, new features
 last_updated: Jan 16, 2020
 summary: "Notes for the Domain 1"
 sidebar: mydoc_sidebar
