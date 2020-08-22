@@ -1,5 +1,5 @@
 ---
-title: Domain 1: Security and Risk Management
+title: "Domain 1: Security and Risk Management"
 tags: [domain_1]
 #keywords: release notes, announcements, what's new, new features
 last_updated: Aug 22, 2020
@@ -13,6 +13,7 @@ permalink: 1_notes.html
 folder: mydoc
 ---
 
+asd
 # 1.1 Understand and apply concepts of confidentiality, integrity and availability
 
 # 1.2 Evaluate and apply security governance principles
