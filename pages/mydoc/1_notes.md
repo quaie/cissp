@@ -3,7 +3,6 @@ title: "Domain 1: Security and Risk Management"
 tags: [domain_1]
 #keywords: release notes, announcements, what's new, new features
 last_updated: Aug 22, 2020
-title: Release notes 5.0
 tags: [domain_1]
 #keywords: release notes, announcements, what's new, new features
 last_updated: Jan 16, 2020
