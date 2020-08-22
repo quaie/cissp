@@ -5,7 +5,7 @@ tags: [about]
 sidebar: mydoc_sidebar
 permalink: index.html
 summary: This website is my attempt to summarize information while learning for the CISSP exam.
-last_updated: 20 Jan 2020
+last_updated: 22 Aug 2020
 ---
 
 <!--{% include note.html content="If you're cloning this theme, you're probably writing documentation of some kind. I have a blog on technical writing here called <a alt='technical writing blog' href='http://idratherbewriting.com'>I'd Rather Be Writing</a>. If you'd like to stay updated with the latest trends, best practices, and other methods for writing documentation, consider <a href='https://tinyletter.com/tomjoht'>subscribing</a>. I also have a site on <a href='http://idratherbewriting.com/learnapidoc'>writing API documentation</a>." %}
@@ -21,9 +21,9 @@ The whole idea is to have it formatted in an optimal layout for [skimming](http:
 
 **Because** many books have different ways of treating the subjects, starting with formatting (just letting text flow, with bold titles for the main ideas, which are nowhere grouped visually to show they belong together) and ending with definitions/notions which are available only in some books.
 
-**Because** there are so many sources to learn from - books, video classes, Youtube videos, etc - and this might be ______ for the newcomer.
+**Because** there are so many sources to learn from - books, video classes, Youtube videos, etc - and choosing one might be difficult for the newcomer.
 
-**Because** nobody can tell (at least officially :)) HOW THE EXAM REALLY IS. This forces the students to learn (allmost) all details in the books (and there are plenty!).
+**Because** nobody can tell (at least officially :)) HOW THE EXAM REALLY IS. This forces the students to learn (almost) all the details from the books (and there many books to choose from!).
 
 **Because** I stumbled upon [this](https://simonowens157.gitlab.io/cissp/){:target="_blank"} and liked the idea.
 
