@@ -146,27 +146,27 @@ entries:
     folderitems:
 
     - title: Books
-      url: /mydoc_troubleshooting.html
+      url: /resources_books.html
       output: web, pdf
 
     - title: Flashcards
-      url: /flashcards.html
+      url: /resources_flashcards.html
       output: web, pdf
 
     - title: Links
-      url: /links.html
+      url: /resources_links.html
       output: web, pdf
 
     - title: Social networks
-      url: /mydoc_troubleshooting.html
+      url: /resources_social_networks.html
       output: web, pdf
 
     - title: Test Engines/Mobile Apps
-      url: /mydoc_troubleshooting.html
+      url: /resources_apps.html
       output: web, pdf
 
     - title: Youtube
-      url: /mydoc_troubleshooting.html
+      url: /resources_youtube.html
       output: web, pdf
 
 

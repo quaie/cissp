@@ -1,16 +1,16 @@
 ---
-title: Release notes 5.0
-tags: [domain_1]
+title: Mindmaps
+tags: [domain_4]
 #keywords: release notes, announcements, what's new, new features
 last_updated: Jan 16, 2020
-summary: "Notes for the Domain 1"
+summary: "Mindmaps for domain 4"
 sidebar: mydoc_sidebar
-permalink: 1_notes.html
+permalink: 4_mindmaps.html
 folder: mydoc
 ---
 
-# 1
-## 2
-### 3
+### Various mindmaps
+
+
 
 {% include links.html %}

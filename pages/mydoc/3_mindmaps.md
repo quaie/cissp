@@ -1,11 +1,11 @@
 ---
 title: Mindmaps
-tags: [domain_1]
+tags: [domain_3]
 #keywords: release notes, announcements, what's new, new features
 last_updated: Jan 16, 2020
-summary: "Mindmaps for domain 1"
+summary: "Mindmaps for domain 3"
 sidebar: mydoc_sidebar
-permalink: 1_mindmaps.html
+permalink: 3_mindmaps.html
 folder: mydoc
 ---
 

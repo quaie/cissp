@@ -1,7 +1,7 @@
 ---
 title: About the author
 keywords: documentation theme, jekyll, technical writers, help authoring tools, hat replacements
-last_updated: 20 January 2020
+last_updated: 20th January 2020
 tags: [about]
 summary: "Who authored the content?!"
 sidebar: mydoc_sidebar
