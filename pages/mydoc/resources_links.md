@@ -21,6 +21,10 @@ p&utm_name=iossmf){:target="_blank"}
 - [success story](https://satiex.net/2019/10/25/certified-information-systems-security-professional/){:target="_blank"}
 - [some text](https://luc.desfosses.fr/CISSP/){:target="_blank"}
 - [success story](https://www.securityartwork.es/2019/04/05/cissp-certificate-ii-personal-experience/){:target="_blank"}
+- [cissp in 30 days recipe](https://www.linkedin.com/pulse/cissp-easy-way-30-day-plan-jeremiah-walker/){:target="_blank"}
+- [success story](https://medium.com/@tho.le/my-passing-cissp-recipe-may-2019-8d8f893e77e3){:target="_blank"}
+- [sunflower](https://github.com/so87/CISSP-Study-Guide/blob/master/StudyNotes.pdf){:target="_blank"}
+- [Thor Pedersen](https://thorteaches.com/){:target="_blank"}
 
 
 {% include links.html %}
