@@ -23,6 +23,7 @@ folder: mydoc
 - Data processers
 - Data remanence
 - Collection limitation
+_(Collection Limitation Principle: Collection of personal data should be limited, obtained by lawful and fair means, and with the knowledge of the subject.)_
 
 `2.4 Ensure appropriate asset retention`
 
