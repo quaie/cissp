@@ -12,12 +12,22 @@ folder: mydoc
 SENSITIVITY --> amount of damage that would be done if info is disclosed
 CRITICALITY --> time sensitivity of data - how much revenue the asset generates; damage done if info unavailable
 ```
+**Data classification policies**
+- FORMAL ACCESS APPROVAL --> data owner approves access (written document)
+- NEED TO KNOW --> (applied to DATA) need VALID reason to access the data
+- LEAST PRIVILEGE --> (applied to ACTIONS) users have minimum necessary access to perform their job duties
+
+**Sensitive information**
+- DATA HANDLING --> policies for HOW/WHERE/WHEN/WHY data was handled
+- DATA STORAGE --> where is data kept
+- DATA RETENTION --> not kept beyond its period of usefulness/legal req's
+
 **STATES OF DATA**
 
 | state | protection method |
 | ------ | ------ |
 | at rest | FS encryption |
-| in process| physical security, screen protectors |
+| in use| physical security, screen protectors |
 | in transit| SSL/TLS (VPN, IPv6 built-in encryption |
 
 **THREATS TO DATA AT REST (on storage)**
