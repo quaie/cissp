@@ -9,7 +9,8 @@ permalink: 2_notes.html
 folder: mydoc
 ---
 
-
+------------------------------------------------------------------
+**_Certification Exam Outline_**
 
 `2.1 Identify and classify information and assets`
 - Data classification
@@ -32,7 +33,7 @@ folder: mydoc
 - Data protection methods
 
 `2.6 Establish information and asset handling requirements`
-
+------------------------------------------------------------------
 
 
 ```
