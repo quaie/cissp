@@ -99,11 +99,23 @@ TOKENIZATION --> access to tokenized data, not real data
 
 **CONTROL SELECTION FRAMEWORKS**
 
-- ISO 27002 --> best practices for IS Mgmt
-- COBIT --> 
-- NIST 
-- NIST CSF (Cyber Security Framework)
+- PCI-DSS
+- ISO 27001/2
+- OCTAVE ---> self-directed risk management
+- COSO --> goals for the entire organisation
+- COBIT --> goals for IT
+- ITIL --> IT service mgmt
+- FRAP --> Facilitated Risk Analysis Process
 
+```
+SCOPING --> which portions of a standard will be used
+TAILORING --> customize a standard to implement in an org
+```
+
+```
+CERTIFICATION --> certified to meet the security reqs of the data owner
+ACCREDITATION --> data owner's acceptance of certification & residual risk, before it goes into prod
+```
 # 1
 ## 2
 ### 3
