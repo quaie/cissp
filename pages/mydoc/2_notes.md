@@ -13,11 +13,14 @@ folder: mydoc
 **_Certification Exam Outline_**
 
 `2.1 Identify and classify information and assets`
+> classification is a critical first step to better and more secure asset and data management, providing valuable insight into an environment
 - Data classification
+> civil vs mil+gov: public --> confidential, unclassified --> top secret
 - Asset Classification
+> -inventory of assets & their owners/responsible persons
 
 `2.2 Determine and maintain information and asset ownership`
-
+> - data owners and data processors will have  clearly outlined roles
 `2.3 Protect privacy`
 - Data owners
 - Data processers
