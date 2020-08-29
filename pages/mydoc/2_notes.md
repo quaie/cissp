@@ -12,20 +12,28 @@ folder: mydoc
 
 
 `2.1 Identify and classify information and assets`
+
 » Data classification
 » Asset Classification
+
 `2.2 Determine and maintain information and asset ownership`
+
 `2.3 Protect privacy`
+
 » Data owners
 » Data processers
 » Data remanence
 » Collection limitation
+
 `2.4 Ensure appropriate asset retention`
+
 `2.5 Determine data security controls`
+
 » Understand data states
 » Scoping and tailoring
 » Standards selection
 » Data protection methods
+
 `2.6 Establish information and asset handling requirements`
 
 ------------------------------------------------------------
