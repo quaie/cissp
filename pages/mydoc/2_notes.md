@@ -8,7 +8,9 @@ sidebar: mydoc_sidebar
 permalink: 2_notes.html
 folder: mydoc
 ---
-```
+------------------------------------------------------------
+**_Certification Exam Outline_**
+
 `2.1 Identify and classify information and assets`
 » Data classification
 » Asset Classification
@@ -25,7 +27,7 @@ folder: mydoc
 » Standards selection
 » Data protection methods
 `2.6 Establish information and asset handling requirements`
-```
+
 ------------------------------------------------------------
 
 ```
