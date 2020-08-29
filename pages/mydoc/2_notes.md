@@ -8,7 +8,7 @@ sidebar: mydoc_sidebar
 permalink: 2_notes.html
 folder: mydoc
 ---
-```
+```sh
 SENSITIVITY --> amount of damage that would be done if info is disclosed
 CRITICALITY --> time sensitivity of data - how much revenue the asset generates
 ```
