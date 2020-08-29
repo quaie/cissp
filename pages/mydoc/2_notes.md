@@ -29,6 +29,7 @@ folder: mydoc
 
 `2.5 Determine data security controls`
 - Understand data states
+> at rest/in motion/in use
 - Scoping and tailoring
 >
 > SCOPING --> which portions of a standard will be used
