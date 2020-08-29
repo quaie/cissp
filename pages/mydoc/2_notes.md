@@ -36,7 +36,7 @@ folder: mydoc
 
 `2.6 Establish information and asset handling requirements`
 
-------------------------------------------------------------
+
 
 ```
 SENSITIVITY --> amount of damage that would be done if info is disclosed
