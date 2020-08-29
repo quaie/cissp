@@ -8,7 +8,7 @@ sidebar: mydoc_sidebar
 permalink: 2_notes.html
 folder: mydoc
 ---
-------------------------------------------------------------
+
 **_Certification Exam Outline_**
 
 `2.1 Identify and classify information and assets`
