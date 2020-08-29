@@ -30,10 +30,17 @@ folder: mydoc
 `2.5 Determine data security controls`
 - Understand data states
 - Scoping and tailoring
+>
 > SCOPING --> which portions of a standard will be used
 > 
 > TAILORING --> customize a standard to implement in an org
+>
 - Standards selection
+>
+> org need to ensure the controls comply w/ certain external security standards (PCI-DSS, GDPR for example)
+> 
+> need to identify the standards that apply and assure controls comply w/ them
+>
 - Data protection methods
 
 `2.6 Establish information and asset handling requirements`
