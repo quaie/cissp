@@ -68,11 +68,41 @@ TOKENIZATION --> access to tokenized data, not real data
 - extra layer of access controls on top of the data object to control print/save/copy/etc.
 - travels w/ the data, agnostic of its location; IRM travels w/ the file
 
+**DATA REMANCENCE**
+**_residual data that remains on storage/memory after a file/data has been deleted/erased._**
+
+
+**ILM - Information Lifecycle Management**
+
+|stage|remarks|
+|-|-|
+|CREATION|-classified & owner is assigned|
+|DISTRIBUTION|- "data in motion"|
+||- vulnerable to compromise |
+||- encryption, DLP (Data Loss Prevention) technologies |
+|USE|-"data in use"|
+||- accessed by user/app & actively being used|
+||- must be accessed only on auth systems by auth ppl|
+|MAINTENANCE|- "data at rest"|
+||- data on any kind of storage for backup, archive, etc.|
+||- review of classif levels, encryption|
+||- protect for CIA|
+||- Confidentiality: system/dir/file permissions & encryption|
+||- Integrity: hashes, CRC, file locking|
+||- Availability: db/file clustering, backup, real-time replication|
+|DISPOSITION|- data has no longer value --> properly destroyed|
+
 **Removing data remnants**
 - CLEARING --> overwriting, data inaccessible by normal means
 - PURGING --> degaussing, media unusable by normal means
 - DESTRUCTION --> phy destruction, **irreversible
 
+**CONTROL SELECTION FRAMEWORKS**
+
+- ISO 27002 --> best practices for IS Mgmt
+- COBIT --> 
+- NIST 
+- NIST CSF (Cyber Security Framework)
 
 # 1
 ## 2
