@@ -30,6 +30,8 @@ folder: mydoc
 `2.5 Determine data security controls`
 - Understand data states
 - Scoping and tailoring
+> SCOPING --> which portions of a standard will be used
+> TAILORING --> customize a standard to implement in an org
 - Standards selection
 - Data protection methods
 
