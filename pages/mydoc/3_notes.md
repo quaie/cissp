@@ -87,7 +87,30 @@ all crypto algs rely on **keys**: nothing more than a (big) number. \
 ** bit size of key space**:  number of binary bits (0s and 1s) in the key
 
 ```
-KERCKHOFFS'S PRINCIPLE --> a cryptographic system should be secure even if everything about the system, except the key, is public knowledge
+KERCKHOFFS'S PRINCIPLE --> crypto system should be secure even if everything about it, except the key, is public knowledge.
 ```
+
+|term|meaning|
+|-|-|
+|**_cryptography_**|creating and implementing secret codes and ciphers|
+|**_cryptanalysi_s**|study of methods to defeat codes and ciphers|
+|**_cryptology_**|cryptography and cryptanalysis|
+|**_cryptosystems_**|Specific implementations of a code or cipher in hardware and software|
+
+**Logical operations**
+|op|sign|result|
+|-|-|-|
+|AND|∧| 1∧1=1; rest is 0|
+|OR|∨| 1 everytime there is a 1|
+|NOT|~ or !| |
+|EXCLUSIVE OR|XOR ⊕|returns a true value when only one of the input values is true|
+|MODULO|mod %| the remainder value left over after a division operation|
+
+**one-way function** --> mathematical operation that produces output values for each possible combination of inputs but makes it impossible to retrieve the input values \
+**NONCE** --> random number acting as a placeholder variable in mathematical functions. When the function is executed, the nonce is replaced with a random number generated at the moment of processing for one-time use. The nonce must be a unique number each time it is used.
+
+**CODE**: crypto systems of symbols representing words/phrases, sometimes secret, not meant to provide confidentiality
+vs \
+**CYPHER**: always meant to hide msg's true meaning
 
 {% include links.html %}
