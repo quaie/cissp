@@ -64,17 +64,22 @@ elements`
 
 
 # Cryptography
-```
+
 **COMPRESSION** --> reduces redundancy before plaintext is encrypted, increases crypto strength \
 **DECOMPRESSION FUNCTIONS** --> run on the text before it enters the encryption algorithm
-```
+
 **Security services provided by cryptography**
 - PRIVACY --> unauth disclosure
 - AUTHENTICITY --> verifies the claimed identity
 - INTEGRITY --> detects modif
 - NON-REPUDIATION --> combines Authenticity + Integrity; cannot deny sending/content of msg
 
-```
+
 **plain text + initialization vector + algorithm (cipher) + key = cipher text**
 ```
+Initialization vector - IV - adds randomness to the process
+IV - confidentiality of data
+salt/seed - used w/ passwords
+```
+
 {% include links.html %}
