@@ -65,7 +65,7 @@ elements`
 
 # Cryptography
 
-**COMPRESSION** --> reduces redundancy before plaintext is encrypted, increases crypto strength
+**COMPRESSION** --> reduces redundancy before plaintext is encrypted, increases crypto strength \
 **DECOMPRESSION FUNCTIONS** --> run on the text before it enters the encryption algorithm
 
 
