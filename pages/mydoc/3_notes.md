@@ -82,4 +82,12 @@ IV - confidentiality of data
 salt/seed - used w/ passwords
 ```
 
+all crypto algs rely on **keys**: nothing more than a (big) number. \
+**key space**: range of values that are valid for use as a key \
+** bit size of key space**:  number of binary bits (0s and 1s) in the key
+
+```
+KERCKHOFFS'S PRINCIPLE --> a cryptographic system should be secure even if everything about the system, except the key, is public knowledge
+```
+
 {% include links.html %}
