@@ -113,4 +113,20 @@ KERCKHOFFS'S PRINCIPLE --> crypto system should be secure even if everything abo
 vs \
 **CYPHER**: always meant to hide msg's true meaning
 
+```
+**running key ciphers aka "book ciphers" ** --> the encryption key is as long as the message itself and is often chosen from a common book
+
+**CONFUSION** --> relationship between the plaintext and the key is so complicated that an attacker can’t merely continue altering the plaintext and analyzing the resulting ciphertext to determine the key
+
+**DIFFUSION** --> a change in the plaintext results in multiple changes spread throughout the ciphertext
+
+```
+
+**Distribution of symmetric keys**
+- OFFLINE --> physical exchange
+- PUBLIC KEY ENCR. --> public key to setup a secure channel, over which the secret key is exchanged
+- DIFFIE-HELLMAN KEY EXCH ALG
+
+
+
 {% include links.html %}
