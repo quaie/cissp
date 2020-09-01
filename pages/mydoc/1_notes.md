@@ -3,9 +3,6 @@ title: "Domain 1: Security and Risk Management"
 tags: [domain_1]
 #keywords: release notes, announcements, what's new, new features
 last_updated: Aug 22, 2020
-tags: [domain_1]
-#keywords: release notes, announcements, what's new, new features
-last_updated: Jan 16, 2020
 summary: "Notes for the Domain 1"
 sidebar: mydoc_sidebar
 permalink: 1_notes.html
@@ -42,6 +39,7 @@ folder: mydoc
 `1.6 Develop, document, and implement security policy, standards, procedures, and guidelines`
 
 `1.7 Identify, analyze, and prioritize Business Continuity (BC) requirements`
+
 - Develop and document scope and plan
 - Business Impact Analysis (BIA)
 
