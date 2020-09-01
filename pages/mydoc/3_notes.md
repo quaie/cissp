@@ -1,5 +1,5 @@
 ---
-title: Domain 3: Security Architecture and Engineering
+title: "Domain 3: Security Architecture and Engineering"
 tags: [domain_3]
 ##keywords: release notes, announcements, what's new, new features
 last_updated: Aug 30, 2020
