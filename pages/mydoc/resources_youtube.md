@@ -12,6 +12,8 @@ folder: mydoc
 
 - [Destination Certification](https://www.youtube.com/channel/UCXk6whiDrWq42y9Tdv1MEhg){:target="_blank"}
 - [Larry Greenblatt](https://www.youtube.com/watch?v=1_U7uWCTQp8&list=PL5BpytesnkhSH-V7V-M3NL9149aUQ69e2){:target="_blank"}
-- Capslock's CISSP Bootcamp(https://www.youtube.com/channel/UCFCW4j2hSAy6J8QBXdcNz8g){:target="_blank"}
+- [Capslock's CISSP Bootcamp](https://www.youtube.com/channel/UCFCW4j2hSAy6J8QBXdcNz8g){:target="_blank"}
+- Why you will pass: [Kelly](https://www.youtube.com/watch?v=v2Y6Zog8h2A){:target="_blank"} & [Larry](https://www.youtube.com/watch?v=HWg2geVJuvs){:target="_blank"}
+- Why you will fail: [really?!](https://www.youtube.com/watch?v=giJFhtws-CE){:target="_blank"}
 
 {% include links.html %}
