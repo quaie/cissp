@@ -48,6 +48,10 @@ entries:
     output: web, pdf
     folderitems:
 
+    - title: Certification Exam Outline
+      url: /1_ceo.html
+      output: web, pdf
+
     - title: Notes
       url: /1_notes.html
       output: web, pdf
@@ -59,6 +63,10 @@ entries:
   - title: 2. Asset Security
     output: web, pdf
     folderitems:
+
+    - title: Certification Exam Outline
+      url: /2_ceo.html
+      output: web, pdf
 
     - title: Notes
       url: /2_notes.html
@@ -72,9 +80,18 @@ entries:
     output: web, pdf
     folderitems:
 
+    - title: Certification Exam Outline
+      url: /3_ceo.html
+      output: web, pdf
+
     - title: Notes
       url: /3_notes.html
       output: web, pdf
+
+    - title: Cryptography
+      url: /3_crypto.html
+      output: web, pdf
+
 
     - title: Mindmaps
       url: /3_mindmaps.html
