@@ -92,6 +92,9 @@ entries:
       url: /3_crypto.html
       output: web, pdf
 
+    - title: Security Models
+      url: /3_sec_models.html
+      output: web, pdf
 
     - title: Mindmaps
       url: /3_mindmaps.html
