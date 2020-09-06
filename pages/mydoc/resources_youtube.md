@@ -16,5 +16,6 @@ folder: mydoc
 - Why you will pass: [Kelly](https://www.youtube.com/watch?v=v2Y6Zog8h2A){:target="_blank"} & [Larry](https://www.youtube.com/watch?v=HWg2geVJuvs){:target="_blank"}
 - Why you will fail: [really?!](https://www.youtube.com/watch?v=giJFhtws-CE){:target="_blank"}
 - [MF Prod Channel](https://www.youtube.com/channel/UCIbeWc3tjvGgTS2uV5D2BUw){:target="_blank"}
+- [interesting tips](https://www.youtube.com/watch?v=Qw8sYsO153s&t=46s){:target="_blank"} - careful, they're for the before-2018-changes test
 
 {% include links.html %}

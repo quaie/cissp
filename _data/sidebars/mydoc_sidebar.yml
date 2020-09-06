@@ -96,6 +96,10 @@ entries:
       url: /3_sec_models.html
       output: web, pdf
 
+    - title: Secure Hardware Architecture
+      url: /3_sec_hw_architecture.html
+      output: web, pdf
+
     - title: Mindmaps
       url: /3_mindmaps.html
       output: web, pdf
