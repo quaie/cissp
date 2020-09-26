@@ -1,7 +1,7 @@
 ---
 title: Youtube
 #keywords: documentation theme, jekyll, technical writers, help authoring tools, hat replacements
-last_updated: 29 Aug 2020
+last_updated: 26 Sep 2020
 tags: [resources]
 summary: "Youtube videos/playlists"
 sidebar: mydoc_sidebar
@@ -18,5 +18,9 @@ folder: mydoc
 - [MF Prod Channel](https://www.youtube.com/channel/UCIbeWc3tjvGgTS2uV5D2BUw){:target="_blank"}
 - [interesting tips](https://www.youtube.com/watch?v=Qw8sYsO153s&t=46s){:target="_blank"} - careful, they're for the before-2018-changes test
 - [FRSecure channel](https://www.youtube.com/channel/UClMYYuIkextuYWBJD-9NfSg){:target="_blank"}
+- [How to study the dry CISSP exam materials](https://www.youtube.com/watch?v=JLIp65FY4oY){:target="_blank"}
+- [Pass 2019 CISSP First Time!](https://www.youtube.com/watch?v=aXC9QYfETIg){:target="_blank"}
+
+
 
 {% include links.html %}
