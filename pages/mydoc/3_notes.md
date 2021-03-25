@@ -9,6 +9,7 @@ permalink: 3_notes.html
 folder: mydoc
 ---
 
+
 # MALWARE
 
 **_catch-all name for any malicious sw_**
@@ -36,6 +37,8 @@ folder: mydoc
 **7. ANTIVIR SOFTWARE** --> tries to protect against malware
 -- signature based --> looks for signatures, needs constant updates
 -- heuristic (behavioral) based --> looks for anomalies.
+
+
 
 
 
