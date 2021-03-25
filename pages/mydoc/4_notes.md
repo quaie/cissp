@@ -10,6 +10,7 @@ folder: mydoc
 ---
 
 **VPN screen scraper** = app that allows an attacker to capture what is on the user's display (abernathy?)
+
 **Screen scraping** is the act of copying information that shows on a digital display so it can be used for another purpose.
 
 **SDN** (Software Defined Network) --> physical separation of network control plane from fwd plane (decisions are taken remote, not on the hardware)
@@ -17,50 +18,73 @@ folder: mydoc
 **VSAN** (Virtual Storage Area Network) --> sw-defined storage that allows pooling of storage capabilities & instant/automatic provisioning of VM storage.
 
 **Noise** --> interference introduced to the cables, distorts the signal --> problems
+
 **Attenuation** --> weakening of the signal as it travels down the cable
+
 **Crosstalk** --> wires in parallel --> signals interfere w/ each other & distort the signal
+
 **Eavesdropping** --> fiber optic is the safest !
 
 # Network attacks
 
 **non-blind spoofing** --> attacker in the same subnet, sniffs the seq/ack numbers and hijacks the session
+
 **blind spoofing** --> pkts sent to victim to obtain a sampling of seq numbers & generate a valid seq number for the attack (works on older systems)
+
 **MITM** --> intercepts legitimate traffic between 2, attacker controls info flow & can alter comm
+
 **MAC flooding** --> overflow the MAC table w/ many entries, transforming the device into a hub-like device
+
 **ARP poisoning** --> within VLAN, fools routers into learning false MAC addr; then pose as that device and do MITM
 
 # ICMP attacks
 
 **Ping of Death** --> send oversized packets, victim's OS becomes unstable
+
 **Smurf** --> ICMP echo request --> sent to the broadcast on victim's behalf (faked) --> all devices in the network answer --> DDoS
+
 **Fraggle** --> uses UDP, DDoS like smurf
+
 **ICMP redirect** --> alter the routing table of the host that receives the message using ICMP redirect packets (type 5, used to specify better routing paths)
+
 **ping scanning** --> pings every IP address to see if it's alive
 
 # DNS attacks
+
 **DNS cache poisoning** --> attacker attempts to refresh/update the record when it expires w/ a fake address (on the DNS server's cache)
+
 **DoS** --> attack the DNS server
+
 **DDoS** --> DoS from several devices
+
 **DNSSEC** --> stronger auth mechanism, digital signatures to validate the source of DNS messages
+
 **URL hiding** --> embed URL in web pages/email (text ok, hyperlink fake)
+
 **domain grabbing** --> idividuals register a domain name of a well-known company before the company does it
+
 **cybersquatting** --> domains registered to hold them hostage (sell them to the "right owner")
 
 # Email attacks
+
 **email spoofing** --> fake the headers to look like it comes from somebody else
+
 **phishing** --> convince the stupid user to click a link in a unsolicited email (social eng)
+
 **spear phishing** --> phishing targeted to specific persons
+
 **whaling** --> important person in the company 
+
 **spam** --> mass email
 
+
 **teardrop** --> fragmentation attack, malformed fragments of the packet are sent, @reassembly the victim crashes
+
 **session hijacking** --> attacker places himself in the middle of an active conversation
+
 **IP addr spoofing** --> impersonate another IP addr
+
 **zero day** --> previously unknwon sec vuln
-
-
-# some text
-
 
 
 {% include links.html %}
