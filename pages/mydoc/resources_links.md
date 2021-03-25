@@ -25,6 +25,7 @@ p&utm_name=iossmf){:target="_blank"}
 - [success story](https://medium.com/@tho.le/my-passing-cissp-recipe-may-2019-8d8f893e77e3){:target="_blank"}
 - [sunflower](https://github.com/so87/CISSP-Study-Guide/blob/master/StudyNotes.pdf){:target="_blank"}
 - [Thor Pedersen](https://thorteaches.com/){:target="_blank"}
+- [FRSecure free mentorship](https://frsecure.com/cissp-mentor-program/){:target="_blank"}
 
 
 {% include links.html %}
