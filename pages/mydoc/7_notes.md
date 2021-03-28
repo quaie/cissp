@@ -120,14 +120,89 @@ REMOTE WIPE --> admin delete (MDM)
 |solution|focus|
 |-	|-	|
 |firewall|ingress/egress traffic|
-|filters|data access|
+|filters|data access (email, content, URL)|
 |IDS/IPS|intrusion attempts|
 |NAC|conns to the network|
 |DLP|data exfiltration|
-|honeypot|isolation|
+|honeypot|knowledge and investigation|
+|sandbox|isolation|
 |anti-malware|malicious code|
 
+## Firewall security features
+- packet filtering
+- ACL
+- state (stateless - each datagram individually; stateful - can "see" streams)
+- L7 (application) filtering
+- proxy server - accepts & forwards requests from clients
+- NAT
 
+## IDS/IPS
+
+detection approach
+- **signature-based** --> known signatures
+- **rule-based** --> preconfigured behavior rules
+- **behavior-based** --> finds anomalies after being trained for what is normal
+- **heuristic** --> continually trains on behavior (cont learning)
+
+**IDS responses**
+- logging --> passive
+- notification --> passive, informs
+- shunning --> passive, ignores
+- terminating --> active, end conn
+- instructing --> active, makes a config change
+- deception --> active, allows attacker thing it's successful
+
+# Vuln mgmt
+
+```sh
+VULNERABILITY --> hw/sw weakness that can be potentially exploited.
+EXPOSURE --> system/sw config issue that can contribute to a successful exploit/compromise.
+```
+
+**patch categories**
+- security update
+- critical update
+- functionality patch
+- feature patch
+
+**Threat intel** --> evidence-based info about threats/vulns/exploits
+
+**ISAC - Information Sharing and Analysis Center** --> trusted, sector-specific entity that provides secor-specific info sharing about vulns, threats and incidents.
+
+# Change Mgmt
+
+ITIL terminology for types of changes
+- standard --> planned
+- normal --> must go through the change process before being approved
+- emergency --> time is critical
+
+# Implement recovery strategies
+
+**alternate locations & processing sites**
+- **cold site** --> basic building, no IT equip
+- **mobile site** --> transportable modular unit
+- **warm site** --> HVAC, servers & comm; data needs to be restored
+- **hot site** --> HVAC, servers & comm; sys preconfigured, data near-time
+- **mirrored site** --> all available, can assume processing on the fly
+- **reciprocal site** --> agreement for access to another org's facilities
+
+## Data backup & restoration
+
+**backup strategies**
+|type|process|archive bit|restore|
+|-|-|-|-|
+|FULL|all files||full backup media|
+|DIFF|all created/modified from last FULL|no reset|full + last diff|
+|INCR|ALL changed files| reset|full + all subsequent incr|
+
+```sh
+archive bit --> FS marker that the file has changed
+```
+
+**backup rotation cycles**
+- **son** --> one full backup cycle (daily)
+- **father-son** --> two full backup cycles (week/month)
+- **grandfather-father-son** --> three/more backup cycles (week/month/year)
 
 
 
