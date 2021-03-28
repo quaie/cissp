@@ -42,8 +42,21 @@ Least functionality - about objects, least privilege - about subject
 
 **Group policy** --> centralized management/cfg of OS, apps & users settings in an AD env
 
+**Application sprawl** is the growth of an IT system to include more applications, and to use more resources overall. Systems that suffer from inefficiency due to poor design are often talked about in terms of application sprawl.
 
+# Local storage
 
+- **DAS - Direct Attached Storage** --> locally attached disk
+- **NAS - Network Attached Storage** --> storage device accessed via network (shares) - _**file based**_
+- **SAN - Storage Area Network** --> enterprise-level storage, accessed via private network using fiber channel, FCoE, iSCSI (_**at block level**_)
+- **NUS - Network Unified Storage** --> combines NAS + SAN --> file based + block based
+
+**Virtual storage** --> pool resources to present them as one unit (cloud storage)
+
+# Hardware encryption
+hw mechanism to automatically encrypt data written to the magnetic media
+- **FDE - Full Disk Encryption**
+- **SDE - self-encrypting drives**
 
 
 {% include links.html %}
