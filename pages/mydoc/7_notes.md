@@ -225,6 +225,7 @@ AVAILABILITY --> measure of system's uptime (99.9999%)
 RESILIENCY --> capability to continue operating when disruption
 FAULT TOLERANCE --> capability to continue operating w/ one/more components failed
 REDUNDANCY --> duplication of critical components
+FAILOVER --> graceful transition to a standby device
 ```
 
 **SWAPPING** --> process of replacing a failed component
