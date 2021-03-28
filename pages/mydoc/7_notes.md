@@ -204,6 +204,36 @@ archive bit --> FS marker that the file has changed
 - **father-son** --> two full backup cycles (week/month)
 - **grandfather-father-son** --> three/more backup cycles (week/month/year)
 
+## online backup strategies
+|strategy|description|
+|-|-|
+|cloud backup services|scheduled to an internet location|
+|disk shadowing|data r/w to 2/more disks (transparent for the user)|
+|electronic vaulting|files backed-up as they change|
+|remote journaling|db: transaction logs periodically copied remote|
+|ASR - Automated System Recovery|disk image that can be used to restore OS files|
+
+**replication strategies**
+- point-in-time --> periodic snapshots replicated
+- async repl --> write = complete when local storage commits; remote has a small lag
+- sync repl --> data written to 2 locations, both writes must be complete
+
+## Resiliency & fault tolerance
+
+```sh
+AVAILABILITY --> measure of system's uptime (99.9999%)
+RESILIENCY --> capability to continue operating when disruption
+FAULT TOLERANCE --> capability to continue operating w/ one/more components failed
+REDUNDANCY --> duplication of critical components
+```
+
+**SWAPPING** --> process of replacing a failed component
+- **warm swap** --> insert/remove hw while system is in a suspended state
+- **hot swap** --> insert/remove hw while system is running
+- **hot plug** --> add component w/o interruption
+
+
+
 
 
 
