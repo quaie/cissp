@@ -60,13 +60,75 @@ hw mechanism to automatically encrypt data written to the magnetic media
 
 #############
 
-**MDM - Mobile device management** --> deploy, secure, monitor, integrate & manage mobile devices in the workplace.
+# MDM - Mobile device management
+deploy, secure, monitor, integrate & manage mobile devices in the workplace.
 
-# Mobile device ownership & deployment
+control categories
+- device tracking
+- data protection
+- authentication
+- app/content management
+
+## Mobile device ownership & deployment
 - **COBO - Company-owned business only
 - **CYOD - Choose your own device
 - **COPE - Company-owned personal enabled
 - **BYOD - Bring your own device
+
+device tracking (both can be part of a multifactor auth)
+- **geolocation** --> determine its location
+- **geofencing** --> define an area where it can be used
+
+## data protection
+- **containerization** --> segregate high-risk app by running them in a secure virtual container
+- **storage segmentation** --> segment personal from corporate data (different encry policies)
+- **full device encryption** --> 
+- **DLP** --> copy/paste restrictions
+
+
+# Incident Management
+
+- **prevention** --> threat modeling, risk assessment, controls implem, monitoring
+- **preparation** --> planning, documenting, assign resp, training
+- **detection** --> monitoring, reporting, analysis
+- **response** --> containment, eradication, recovery
+
+```sh
+SETA --> Security Education, training & Awareness (program)
+```
+
+## Incident Response Phases
+
+- **preparation** --> establish incident mgmt capability
+- **detection** --> id IOA (indicator of attack) and IOC (indicators of compromise) - logs, SIEM, threat intel
+- **containment** --> minimize the damage (disc from network, shutdown)
+- **eradication** --> eliminate components of the incident (delete malware, mitigate vulns)
+- **recovery** --> restore system to normal operation
+- **lessons learned** --> document, root cause, update playbook
+
+**Incident mgmt plan** --> roles & resp, strategies & procedures for preparing/responding to/managing incidents
+
+**Incident playbook** --> set of instructions for plan/respond to a specific type of attack
+
+```sh
+AUTO WIPE --> after x failed logins, data protection
+REMOTE WIPE --> admin delete (MDM)
+```
+
+# Detective and preventative solutions
+
+|solution|focus|
+|-	|-	|
+|firewall|ingress/egress traffic|
+|filters|data access|
+|IDS/IPS|intrusion attempts|
+|NAC|conns to the network|
+|DLP|data exfiltration|
+|honeypot|isolation|
+|anti-malware|malicious code|
+
+
+
 
 
 
