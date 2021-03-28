@@ -58,5 +58,16 @@ hw mechanism to automatically encrypt data written to the magnetic media
 - **FDE - Full Disk Encryption**
 - **SDE - self-encrypting drives**
 
+#############
+
+**MDM - Mobile device management** --> deploy, secure, monitor, integrate & manage mobile devices in the workplace.
+
+# Mobile device ownership & deployment
+- **COBO - Company-owned business only
+- **CYOD - Choose your own device
+- **COPE - Company-owned personal enabled
+- **BYOD - Bring your own device
+
+
 
 {% include links.html %}
