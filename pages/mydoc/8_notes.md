@@ -9,6 +9,28 @@ permalink: 8_notes.html
 folder: mydoc
 ---
 
+# SDLC - systems development life cycle
+- system development model
+- in the context of CISSP --> secure systems development LC
+
+- **prepare a sec plan**
+- **initiation**
+  - conduct a sensitivity assessment
+- **dev/acquisition**
+  - determine sec reqs
+  - incorporate sec reqs in specifications
+- **implementation**
+  - install controls
+  - sec testing
+  - accreditation
+- **operation/maintenance**
+  - sec operations & administration
+  - operational assurance
+  - audits & monitoring
+- **disposal**
+  - destroy/archive info
+  - media sanitization/destruction
+
 # CASE - computer-aided software engineering
 uses programs to assist  in the creation/maint of other programs
 
@@ -98,6 +120,7 @@ systematic & detailed analysis of all interfaces, API & interaction w/ component
 # Acceptance testing
 
 
+# Databases
 
 
 
