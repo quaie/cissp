@@ -122,7 +122,22 @@ systematic & detailed analysis of all interfaces, API & interaction w/ component
 
 # Databases
 
+**relational** --> two-dimensional tables (rows aka tuple + columns aka attributes)
 
+**primary key** --> unique value in each row
+
+**candidate key** --> any column w/ unique values
+
+**foreign key** --> key that matches a primary key in another table
+
+**DB integrity**
+- _**referential**_ --> every foreign key matches a primary key
+- _**semantic**_ --> each column value is consistent w/ the attribute data type
+- _**entity**_ --> each row has a unique non-null primary key
+
+**normalization** --> data is logically concise, organised & consistent; removes duplicates
+
+**DB view** --> results of a query, used to provide a constrained user interface
 
 
 
