@@ -87,4 +87,9 @@ folder: mydoc
 **zero day** --> previously unknwon sec vuln
 
 
+
+
+# TRICKS
+
+HTTPS encrypts @ layer 4, using SSL/TLS; the entire HTTPS message; S-HTTP - never widely used, encrypts only data @ layer 7
 {% include links.html %}
