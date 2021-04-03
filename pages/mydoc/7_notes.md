@@ -70,10 +70,10 @@ control categories
 - app/content management
 
 ## Mobile device ownership & deployment
-- **COBO - Company-owned business only
-- **CYOD - Choose your own device
-- **COPE - Company-owned personal enabled
-- **BYOD - Bring your own device
+- **COBO** - Company-owned business only
+- **CYOD** - Choose your own device
+- **COPE** - Company-owned personal enabled
+- **BYOD** - Bring your own device
 
 device tracking (both can be part of a multifactor auth)
 - **geolocation** --> determine its location
@@ -94,7 +94,7 @@ device tracking (both can be part of a multifactor auth)
 - **response** --> containment, eradication, recovery
 
 ```sh
-SETA --> Security Education, training & Awareness (program)
+SETA --> Security Education, Training & Awareness (program)
 ```
 
 ## Incident Response Phases
@@ -249,7 +249,10 @@ FAILOVER --> graceful transition to a standby device
 - **hot plug** --> add component w/o interruption
 
 
-
+# Hypervisor
+aka VMM - Virtual Machine Monitor
+- type 1 --> installed on bare metal, next to hardware
+- type 2 --> installed as app on an OS
 
 
 
