@@ -219,6 +219,7 @@ archive bit --> FS marker that the file has changed
 - **grandfather-father-son** --> three/more backup cycles (week/month/year)
 
 ## online backup strategies
+
 |strategy|description|
 |-|-|
 |cloud backup services|scheduled to an internet location|
