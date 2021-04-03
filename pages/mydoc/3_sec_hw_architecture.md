@@ -50,6 +50,10 @@ folder: mydoc
 
 
 **Faraday cage** --> block electromagnetic signals (radio, wireless, cellular, RFID tags)
+
+**Lockdown enclosure prevents theft of computer equipment**
+
+
 _
 
 {% include links.html %}
