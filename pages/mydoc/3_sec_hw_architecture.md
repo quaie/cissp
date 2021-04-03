@@ -49,6 +49,7 @@ folder: mydoc
 - _**secondary**_ --> non-volatile memory used for long-term storage (HDD, CDROM)
 
 
+**Faraday cage** --> block electromagnetic signals (radio, wireless, cellular, RFID tags)
 _
 
 {% include links.html %}
