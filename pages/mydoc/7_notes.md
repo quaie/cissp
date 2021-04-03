@@ -254,6 +254,11 @@ aka VMM - Virtual Machine Monitor
 - type 1 --> installed on bare metal, next to hardware
 - type 2 --> installed as app on an OS
 
-
+**the 5 rules of evidence**
+- be authentic
+- be accurate
+- be complete
+- be convincing
+- be admissible
 
 {% include links.html %}
