@@ -157,6 +157,8 @@ _**additional in the larger SLC process:**_
 11. operations & maintenance --> live prod, monitored & patched, etc
 12. revisions & system replacement --> evaluate for new functionalities/retired
 
+**INFERENCE** --> deduce sensitive info based on available info
 
+**AGGREGATION** --> combine benign info from several sources to reveal sensitive info
 
 {% include links.html %}
