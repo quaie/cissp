@@ -128,6 +128,100 @@ ALE before safeguard - ALE after safeguard - annual cost of safeguard = VALUE OF
 
 **SUPPLY CHAIN** --> chain of multiple entities delivering a service; must be secure, reliable, trustworthy
 
+**supply chain evaluation**
+- on-site evaluation
+- document exchange & review
+- process/policy review
+- third-party audit
+
+# Threat modeling
+security process where potential threats are id, categorised and analysed.
+
+goal: eradicate/reduce threats
+
+can be focused on:
+- **assets** --> use asset evaluation results to id threats
+- **attackers** --> based on attacker's goals
+- **software** --> potential threats against the sw
+
+## Threat modeling methodologies
+
+1. STRIDE (Microsoft)
+      - Spoofing
+      - Tampering
+      - Repudiation
+      - Information disclosure
+      - DoS
+      - Elevation of privilege
+2. PASTA --> focuses on controls relative to asset value
+3. VAST  --> based on Agile 
+      - Visual
+      - Agile
+      - Simple
+      - Threat
+ 4. TRIKE --> focuses on a risk-based approach
+ 5. DREAD --> ?
+      - Damage potential
+      - Reproducibility
+      - Exploitability
+      - Affected users
+      - Discoverability
+ 6. Diagramming potential attacks
+ 7. Reduction analysis --> 
+            - trust boundary --> any location where the level of trust/security changes
+            - data flow paths --> movement of data
+            - input points --> external input
+            - privileged operations --> greater privs than of a standard user
+
+**SECURITY CONTROLS** --> safeguard = proactive, countermeasure = reactive
+
+_**categories**_:
+- technical (hw, sw)
+- administrative (policies, procedures)
+- physical (can touch)
+
+
+_**types**_:
+- **deterrent** - discourage
+- **preventative** - stop
+- **detective** - discover/detect
+- **compensating** - aid other controls
+- **corrective** - modify env to return systems to normal after smth has happened
+- **recovery** - extension of corrective w/ more capabilities
+- **directive** - direct/confine/control actions of subjects to force/encourage compliance
+
+# Legal and regulatory
+
+- criminal law
+- civil law
+- administrative law
+
+
+**LAWS**
+- CFAA - first US cybercrime-specific
+- FISMA - infosec operations for federal agencies
+- DMCA - literary/musical works
+
+**Intellectual property**
+- trademark
+- patent
+- trade secret
+- copyright
+
+**Licensing**
+- contractual --> written contract
+- shrink-wrap --> written outside of the sw package
+- click-through --> click button to agree
+- cloud services --> link & checkbox for terms/conditions
+
+**privacy laws**
+- HIPAA - health
+- HITECH - health
+- Gramm-Leach-Bliley --> financial institutions
+- COPPA --> Children's Online Privacy Protection Act
+- ECPA --> Electronic Communications Privacy Act
+- CALEA --> Comms Assistance for Law Enforcement Act
+
 
 
 {% include links.html %}
