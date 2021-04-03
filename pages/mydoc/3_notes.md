@@ -39,7 +39,7 @@ folder: mydoc
 -- heuristic (behavioral) based --> looks for anomalies.
 
 
-
+TOCTTOU attacks, race condition exploits, and communication disconnects are known as **state attacks** because they attack timing, data flow control, and transition between one system state to another
 
 
 
