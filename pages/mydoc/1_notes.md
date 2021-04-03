@@ -86,10 +86,14 @@ legal issues are involved --> "call an attorney"
 
 **controls gap** --> amount of risk reduced by implementing safeguards
 
+
+
 ```sh
 threats X vulnerabilities X asset value = total risk
 
 rusk = threat * vulnerability
+
+total risk - controls gap = residual risk
 ```
 
 # Risk analysis
@@ -121,5 +125,9 @@ ALE = SLE * ARO
 
 ALE before safeguard - ALE after safeguard - annual cost of safeguard = VALUE OF SAFEGUARD
 ```
+
+**SUPPLY CHAIN** --> chain of multiple entities delivering a service; must be secure, reliable, trustworthy
+
+
 
 {% include links.html %}
