@@ -51,7 +51,7 @@ folder: mydoc
 
 # DNS attacks
 
-**DNS cache poisoning** --> attacker attempts to refresh/update the record when it expires w/ a fake address (on the DNS server's cache)
+**DNS cache poisoning (pharming)** --> attacker attempts to refresh/update the record when it expires w/ a fake address (on the DNS server's cache)
 
 **DoS** --> attack the DNS server
 
