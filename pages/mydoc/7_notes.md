@@ -110,12 +110,12 @@ SETA --> Security Education, training & Awareness (program)
 ANOTHER VARIANT
 
 - detection
-- response
-- mitigation
+- response      --> limit damage
+- mitigation    --> contain the incident
 - reporting
 - recovery
-- remediation
-- lessons learned
+- remediation   --> include root cause analysis
+- lessons learned --> include root cause analysis
 ```
 
 **Incident mgmt plan** --> roles & resp, strategies & procedures for preparing/responding to/managing incidents
