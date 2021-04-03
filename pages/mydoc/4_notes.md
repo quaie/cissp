@@ -88,6 +88,15 @@ folder: mydoc
 
 **zero day** --> previously unknwon sec vuln
 
+# Bluetooth
+
+operates in 2.4 GHz, uses FHSS and AFH (Adaptive Freq Hopping) - switches congested channels, low power
+
+**uses a weak encryption cipher, E0; has 128-bit key, is vulnerable**
+- buffer overflow
+- bluejacking (unsolicited msg are sent)
+- BlueBug attacks (can overtake phone, send SMS, download/modify data)
+
 
 
 
