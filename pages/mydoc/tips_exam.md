@@ -15,9 +15,16 @@ few mantras which will always be true:
 - THINK LIKE A MANAGER !!!
 - HUMAN LIFE IS ALWAYS THE MOST IMPORTANT THING TO PROTECT
 - READY, AIM, FIRE before taking action
-
-
 ```
+
+**DON'T TOUCH, ADVISE** --> like a consultant, focus on process, role, due diligence & due care
+
+**COST vs VALUE** --> what would be gained (aka VALUE) by implementing the controls (aka COSTS)?
+
+```sh
+the most important question --> HOW, WHO, WHY, WHEN
+```
+
 
 
 {% include links.html %}

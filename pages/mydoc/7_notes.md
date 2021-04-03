@@ -106,6 +106,20 @@ SETA --> Security Education, training & Awareness (program)
 - **recovery** --> restore system to normal operation
 - **lessons learned** --> document, root cause, update playbook
 
+
+```sh
+ANOTHER VARIANT
+
+- detection
+- response      --> limit damage
+- mitigation    --> contain the incident
+- reporting
+- recovery
+- remediation   --> include root cause analysis
+- lessons learned --> include root cause analysis
+```
+
+
 **Incident mgmt plan** --> roles & resp, strategies & procedures for preparing/responding to/managing incidents
 
 **Incident playbook** --> set of instructions for plan/respond to a specific type of attack
