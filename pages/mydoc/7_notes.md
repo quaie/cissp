@@ -132,7 +132,7 @@ REMOTE WIPE --> admin delete (MDM)
 # Detective and preventative solutions
 
 |solution|focus|
-|-	|-	|
+|-|-|
 |firewall|ingress/egress traffic|
 |filters|data access (email, content, URL)|
 |IDS/IPS|intrusion attempts|
