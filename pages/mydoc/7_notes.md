@@ -106,6 +106,7 @@ SETA --> Security Education, training & Awareness (program)
 - **recovery** --> restore system to normal operation
 - **lessons learned** --> document, root cause, update playbook
 
+
 ```sh
 ANOTHER VARIANT
 
@@ -117,6 +118,7 @@ ANOTHER VARIANT
 - remediation   --> include root cause analysis
 - lessons learned --> include root cause analysis
 ```
+
 
 **Incident mgmt plan** --> roles & resp, strategies & procedures for preparing/responding to/managing incidents
 
