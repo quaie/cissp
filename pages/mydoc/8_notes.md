@@ -12,7 +12,6 @@ folder: mydoc
 # SDLC - systems development life cycle
 - system development model
 - in the context of CISSP --> secure systems development LC
-
 - **prepare a sec plan**
 - **initiation**
   - conduct a sensitivity assessment
