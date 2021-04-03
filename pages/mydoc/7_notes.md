@@ -224,7 +224,7 @@ archive bit --> FS marker that the file has changed
 |-|-|
 |cloud backup services|scheduled to an internet location|
 |disk shadowing|data r/w to 2/more disks (transparent for the user)|
-|electronic vaulting|files backed-up as they change|
+|electronic vaulting|files backed-up as they change - tx bulk data to an offsite backup storage|
 |remote journaling|db: transaction logs periodically copied remote|
 |ASR - Automated System Recovery|disk image that can be used to restore OS files|
 
