@@ -21,7 +21,8 @@ few mantras which will always be true:
 
 **COST vs VALUE** --> what would be gained (aka VALUE) by implementing the controls (aka COSTS)?
 
-
+```sh
+the most important question --> HOW, WHO, WHY, WHEN
 
 
 {% include links.html %}
