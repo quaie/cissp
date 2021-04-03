@@ -139,6 +139,24 @@ systematic & detailed analysis of all interfaces, API & interaction w/ component
 
 **DB view** --> results of a query, used to provide a constrained user interface
 
+**SDLC - systems development life cycle**
+
+1. initiation/planning --> idea & objectives
+2. func. req. definition --> how the functions will fit the users
+3. system design specifications --> how data enters the system, flows and exits
+4. dev & implem --> source code
+5. docu & common program controls --> documentation, logging
+6. acceptance --> tested by a third party (func & sec tests)
+7. testing & evaluation controls --> guidelines how testing will be conducted
+8. certification --> compared against set of standards to ensure it complies
+9. accreditation --> mgmt approves system for implementation
+10. implementation --> from dev to prod
+
+_**additional in the larger SLC process:**_
+
+11. operations & maintenance --> live prod, monitored & patched, etc
+12. revisions & system replacement --> evaluate for new functionalities/retired
+
 
 
 {% include links.html %}
