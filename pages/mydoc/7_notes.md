@@ -70,10 +70,10 @@ control categories
 - app/content management
 
 ## Mobile device ownership & deployment
-- **COBO - Company-owned business only
-- **CYOD - Choose your own device
-- **COPE - Company-owned personal enabled
-- **BYOD - Bring your own device
+- **COBO** - Company-owned business only
+- **CYOD** - Choose your own device
+- **COPE** - Company-owned personal enabled
+- **BYOD** - Bring your own device
 
 device tracking (both can be part of a multifactor auth)
 - **geolocation** --> determine its location
@@ -94,7 +94,7 @@ device tracking (both can be part of a multifactor auth)
 - **response** --> containment, eradication, recovery
 
 ```sh
-SETA --> Security Education, training & Awareness (program)
+SETA --> Security Education, Training & Awareness (program)
 ```
 
 ## Incident Response Phases
@@ -219,11 +219,12 @@ archive bit --> FS marker that the file has changed
 - **grandfather-father-son** --> three/more backup cycles (week/month/year)
 
 ## online backup strategies
+
 |strategy|description|
 |-|-|
 |cloud backup services|scheduled to an internet location|
 |disk shadowing|data r/w to 2/more disks (transparent for the user)|
-|electronic vaulting|files backed-up as they change|
+|electronic vaulting|files backed-up as they change - tx bulk data to an offsite backup storage|
 |remote journaling|db: transaction logs periodically copied remote|
 |ASR - Automated System Recovery|disk image that can be used to restore OS files|
 
@@ -248,8 +249,16 @@ FAILOVER --> graceful transition to a standby device
 - **hot plug** --> add component w/o interruption
 
 
+# Hypervisor
+aka VMM - Virtual Machine Monitor
+- type 1 --> installed on bare metal, next to hardware
+- type 2 --> installed as app on an OS
 
-
-
+**the 5 rules of evidence**
+- be authentic
+- be accurate
+- be complete
+- be convincing
+- be admissible
 
 {% include links.html %}

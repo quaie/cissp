@@ -43,6 +43,17 @@ folder: mydoc
 
 **PAGING** --> copies block from RAM (pri memory) from/to secondary memory (disk)
 
+
+**STORAGE**
+- _**primary**_ --> info that is required by CPU, volatile
+- _**secondary**_ --> non-volatile memory used for long-term storage (HDD, CDROM)
+
+
+**Faraday cage** --> block electromagnetic signals (radio, wireless, cellular, RFID tags)
+
+**Lockdown enclosure prevents theft of computer equipment**
+
+
 _
 
 {% include links.html %}

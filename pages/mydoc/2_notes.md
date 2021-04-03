@@ -2,7 +2,7 @@
 title: "Domain 2: Asset security"
 tags: [domain_2]
 #keywords: release notes, announcements, what's new, new features
-last_updated: Aug 29, 2020
+last_updated: Apr 3, 2021
 summary: "Notes for Domain 2"
 sidebar: mydoc_sidebar
 permalink: 2_notes.html
@@ -118,6 +118,8 @@ CERTIFICATION --> certified to meet the security reqs of the data owner
 ACCREDITATION --> data owner's acceptance of certification & residual risk, before it goes into prod
 ```
 
+**SECURITY MARKING** --> use of human-readable security attr; reflects laws, policies, standards; enable organisational process-based enforcement of policies
 
+**SECURITY LABELING** --> use of security attr for internal data structures withing information systems
 
 {% include links.html %}

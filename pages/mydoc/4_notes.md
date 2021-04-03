@@ -53,6 +53,8 @@ folder: mydoc
 
 **DNS cache poisoning** --> attacker attempts to refresh/update the record when it expires w/ a fake address (on the DNS server's cache)
 
+**pharming** --> redirect a website's traffic to a fake site (by changing the hosts file on a victim's computer or by exploitation of a vulnerability in DNS server software)
+
 **DoS** --> attack the DNS server
 
 **DDoS** --> DoS from several devices
@@ -86,5 +88,19 @@ folder: mydoc
 
 **zero day** --> previously unknwon sec vuln
 
+# Bluetooth
 
+operates in 2.4 GHz, uses FHSS and AFH (Adaptive Freq Hopping) - switches congested channels, low power
+
+**uses a weak encryption cipher, E0; has 128-bit key, is vulnerable**
+- buffer overflow
+- bluejacking (unsolicited msg are sent)
+- BlueBug attacks (can overtake phone, send SMS, download/modify data)
+
+
+
+
+# TRICKS
+
+HTTPS encrypts @ layer 4, using SSL/TLS; the entire HTTPS message; S-HTTP - never widely used, encrypts only data @ layer 7
 {% include links.html %}
