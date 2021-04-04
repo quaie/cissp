@@ -42,6 +42,8 @@ folder: mydoc
 TOCTTOU attacks, race condition exploits, and communication disconnects are known as **state attacks** because they attack timing, data flow control, and transition between one system state to another
 
 
+**CERTIFICATION** --> technical evaluation to assess its concordance w/ sec standards
 
+**ACCREDITATION** --> process of formal acceptance of a certified config by a designated authority
 
 {% include links.html %}
