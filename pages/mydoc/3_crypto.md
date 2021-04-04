@@ -94,6 +94,7 @@ vs \
 
 # DSS - Digital Signature Standard
 
+- rely on public key crypto + hashing functions
 - uses SHA-1/2/3 message digest functions
 - uses one of 3 encryption alg:
   - DSA
@@ -120,6 +121,38 @@ vs \
 |RC5||32, 64,128|0-2040|very strong|
 |Skipjack||64|80||
 |Twofish||128|1-256||
+
+# asymmetric algorithms
+
+|name|type|size|strength|
+|-|-|-|-|
+|RSA|key transport|512|strong|
+|Diffie-Hellman|key exchange||moderate|
+|El Gamal|key exchange||very strong|
+|ECC|elliptic curve|variable w/ smaller key|very strong|
+
+# hash algorithms
+
+|Name|hash value length|
+|-|-|
+|HMAC|variable|
+|HAVAL|128-256|
+|SHA-224|224|
+|SHA-256|256|
+|SHA-384|384|
+|SHA-512|512|
+|MD5|128|
+
+# 3 major public key cryptosystems
+
+- RSA             --> factoring product of prime numbers
+- El Gamal        --> extension of Diffie-Hellman
+- Elliptic Curve  --> discrete logarithm
+
+
+
+
+
 
 
 {% include links.html %}
