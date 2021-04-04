@@ -97,7 +97,11 @@ operates in 2.4 GHz, uses FHSS and AFH (Adaptive Freq Hopping) - switches conges
 - bluejacking (unsolicited msg are sent)
 - BlueBug attacks (can overtake phone, send SMS, download/modify data)
 
-
+|||
+|-|-|
+|bluejacking|send unsolicited msg over Bluetooth|
+|Red Fang|find non-discoverable Bluetooth devices|
+|bluesnarfing|theft of data via Bluetooth|
 
 
 # TRICKS
