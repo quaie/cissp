@@ -104,6 +104,10 @@ entries:
       url: /3_sec_hw_architecture.html
       output: web, pdf
 
+    - title: Physical security
+      url: /3_physical_controls.html
+      output: web, pdf
+
     - title: Mindmaps
       url: /3_mindmaps.html
       output: web, pdf
