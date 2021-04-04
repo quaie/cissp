@@ -42,6 +42,26 @@ folder: mydoc
 TOCTTOU attacks, race condition exploits, and communication disconnects are known as **state attacks** because they attack timing, data flow control, and transition between one system state to another
 
 
+**CERTIFICATION** --> technical evaluation to assess its concordance w/ sec standards
 
+**ACCREDITATION** --> process of formal acceptance of a certified config by a designated authority
+
+
+# Authentication factors
+
+1. something you **know** --> pin, password
+2. something you **have** --> trusted device
+3. something you **are** --> biometric
+4. **somewhere** you **are** --> geolocation
+5. time
+
+**AuthN - authentication** --> prove you are who you say you are - IDENTITY
+
+**AuthZ - authorization** --> grant an authenticated user permissions to do something - ACCESS
+
+
+**FIRMWARE** --> sw on a ROM chip, containing basic instructions needed to start a device (comp/printer/etc.)
+
+**Functional order of security controls** --> DETERRENCE - DENIAL - DETECTION - DELAY
 
 {% include links.html %}
