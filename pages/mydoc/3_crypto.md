@@ -44,6 +44,7 @@ KERCKHOFFS'S PRINCIPLE --> crypto system should be secure even if everything abo
 |**_cryptosystems_**|Specific implementations of a code or cipher in hardware and software|
 
 **Logical operations**
+
 |op|sign|result|
 |-|-|-|
 |AND|∧| 1∧1=1; rest is 0|
@@ -73,6 +74,6 @@ vs \
 - PUBLIC KEY ENCR. --> public key to setup a secure channel, over which the secret key is exchanged
 - DIFFIE-HELLMAN KEY EXCH ALG
 
-
+**zero-knowledge proof** --> prove knowledge of a fact w/o revealing the fact itself
 
 {% include links.html %}
