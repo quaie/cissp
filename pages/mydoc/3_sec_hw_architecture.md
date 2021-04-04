@@ -54,6 +54,12 @@ folder: mydoc
 **Lockdown enclosure prevents theft of computer equipment**
 
 
-_
+**CONFINEMENT** --> restricts a process to read/write from/to specific memory locations
+
+**BOUNDS** --> limits of memory a process cannot exceed (read/write)
+
+**ISOLATION** --> process running confined through the use of memory bounds
+
+
 
 {% include links.html %}
