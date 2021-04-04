@@ -46,4 +46,20 @@ TOCTTOU attacks, race condition exploits, and communication disconnects are know
 
 **ACCREDITATION** --> process of formal acceptance of a certified config by a designated authority
 
+
+# Authentication factors
+
+1. something you **know** --> pin, password
+2. something you **have** --> trusted device
+3. something you **are** --> biometric
+4. **somewhere** you **are** --> geolocation
+5. time
+
+**AuthN - authentication** --> prove you are who you say you are - IDENTITY
+
+**AuthZ - authorization** --> grant an authenticated user permissions to do something - ACCESS
+
+
+
+
 {% include links.html %}
