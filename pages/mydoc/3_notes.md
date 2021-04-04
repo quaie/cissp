@@ -60,6 +60,8 @@ TOCTTOU attacks, race condition exploits, and communication disconnects are know
 **AuthZ - authorization** --> grant an authenticated user permissions to do something - ACCESS
 
 
+**FIRMWARE** --> sw on a ROM chip, containing basic instructions needed to start a device (comp/printer/etc.)
 
+**Functional order of security controls** --> DETERRENCE - DENIAL - DETECTION - DELAY
 
 {% include links.html %}
