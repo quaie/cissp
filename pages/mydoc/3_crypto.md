@@ -25,7 +25,7 @@ folder: mydoc
 ```
 Initialization vector - IV - adds randomness to the process
 IV - confidentiality of data
-salt/seed - used w/ passwords
+salt/seed - used w/ passwords - additional random data to a one-way hashing function; against rainbow tables
 ```
 
 all crypto algs rely on **keys**: nothing more than a (big) number. \
@@ -44,6 +44,7 @@ KERCKHOFFS'S PRINCIPLE --> crypto system should be secure even if everything abo
 |**_cryptosystems_**|Specific implementations of a code or cipher in hardware and software|
 
 **Logical operations**
+
 |op|sign|result|
 |-|-|-|
 |AND|∧| 1∧1=1; rest is 0|
@@ -57,7 +58,7 @@ KERCKHOFFS'S PRINCIPLE --> crypto system should be secure even if everything abo
 
 **CODE**: crypto systems of symbols representing words/phrases, sometimes secret, not meant to provide confidentiality
 vs \
-**CYPHER**: always meant to hide msg's true meaning
+**CIPHER**: always meant to hide msg's true meaning
 
 ```
 **running key ciphers aka "book ciphers" ** --> the encryption key is as long as the message itself and is often chosen from a common book
@@ -72,6 +73,85 @@ vs \
 - OFFLINE --> physical exchange
 - PUBLIC KEY ENCR. --> public key to setup a secure channel, over which the secret key is exchanged
 - DIFFIE-HELLMAN KEY EXCH ALG
+
+**zero-knowledge proof** --> prove knowledge of a fact w/o revealing the fact itself
+
+**split knowledge** --> no single person has sufficient privileges to compromise the security
+
+**work function (factor)** --> measure the strength of a crypto system by measuring the effort in terms of cost/time to decrypt
+
+**key clustering** --> weakness where a plaintext generates identical ciphertext using the same alg w/ different keys
+
+# DES (3DES) modes
+
+||||
+|-|-|-|
+|ECB|Electronic Codebook|**block**; simplest, least secure; enc w/ chosen key, same block will produce same ciphertext|
+|CBC|Cipher Block Chaining|**block**; unenc text XOR w/ preceding ciphertext block; propagates errors|
+|CFB|Cipher Feedback|**stream**; same as CBC, propagates errors|
+|OFB|Output Feedback|**stream**; plain text XOR seed; no chaining, no propagation of errors|
+|CTR|Counter|**stream**; inc counter instead seed; no error propagation|
+
+# DSS - Digital Signature Standard
+
+- rely on public key crypto + hashing functions
+- uses SHA-1/2/3 message digest functions
+- uses one of 3 encryption alg:
+  - DSA
+  - RSA
+  - ECDSA
+
+**meet-in-the-middle attack** --> exploits protos that use two rounds of encryption
+
+**man-in-the-middle attack** --> both parties comm w/ attacker instead w/ each other
+
+**birthday attack** --> attempt to find collisions in hash functions
+
+**replay attack** --> reuse auth requests
+
+# symmetric algorithms
+
+|Name|type|block size|key size|strength|
+|-|-|-|-|-|
+|AES|block|128|128-256|strong|
+|Blowfish||64|32-448||
+|DES|Block|64|56|very weak/obsolete|
+|3DES|block|64|112/168|moderate|
+|IDEA||64|128||
+|RC5||32, 64,128|0-2040|very strong|
+|Skipjack||64|80||
+|Twofish||128|1-256||
+
+# asymmetric algorithms
+
+|name|type|size|strength|
+|-|-|-|-|
+|RSA|key transport|512|strong|
+|Diffie-Hellman|key exchange||moderate|
+|El Gamal|key exchange||very strong|
+|ECC|elliptic curve|variable w/ smaller key|very strong|
+
+# hash algorithms
+
+|Name|hash value length|
+|-|-|
+|HMAC|variable|
+|HAVAL|128-256|
+|SHA-224|224|
+|SHA-256|256|
+|SHA-384|384|
+|SHA-512|512|
+|MD5|128|
+
+# 3 major public key cryptosystems
+
+- RSA             --> factoring product of prime numbers
+- El Gamal        --> extension of Diffie-Hellman
+- Elliptic Curve  --> discrete logarithm
+
+
+
+
 
 
 

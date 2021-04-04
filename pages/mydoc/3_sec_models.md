@@ -70,6 +70,18 @@ folder: mydoc
 |MULTILEVEL|different labels and allows access from subjects w/ different clearances|
 
 
+# Trusted Computing Base
+combo of hw/sw/controls working together to enforce a sec policy; only portion that can be trusted
+
+**security perimeter** --> imaginary boundary that separates TCB from the rest of the system
+
+TCB must create secure channels to comm w/ rest of the system
+
+**reference monitor** --> enforces access control, logical part of TCB confirming the access rights before granting access
+
+**security kernel** --> implements access control, implement the func of the reference monitor
+
+
 
 
 

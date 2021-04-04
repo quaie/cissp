@@ -122,4 +122,14 @@ ACCREDITATION --> data owner's acceptance of certification & residual risk, befo
 
 **SECURITY LABELING** --> use of security attr for internal data structures withing information systems
 
+# GDPR
+
+|||
+|-|-|
+|**data processor**|processes personal data on behalf of data controller|
+|**data controller**|controls processing|
+|**data transfer**|not outside EU|
+|**anonymization**|remove all relevant data to make id of the subject impossible (if done ok, GDPR is no longer relevant; data is modified|
+|**pseudonymization**|use aliases to represent other data|
+
 {% include links.html %}
