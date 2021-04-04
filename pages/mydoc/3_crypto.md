@@ -25,7 +25,7 @@ folder: mydoc
 ```
 Initialization vector - IV - adds randomness to the process
 IV - confidentiality of data
-salt/seed - used w/ passwords
+salt/seed - used w/ passwords - additional random data to a one-way hashing function; against rainbow tables
 ```
 
 all crypto algs rely on **keys**: nothing more than a (big) number. \
@@ -80,6 +80,7 @@ vs \
 
 **work function (factor)** --> measure the strength of a crypto system by measuring the effort in terms of cost/time to decrypt
 
+**key clustering** --> weakness where a plaintext generates identical ciphertext using the same alg w/ different keys
 
 # DES (3DES) modes
 
@@ -90,6 +91,35 @@ vs \
 |CFB|Cipher Feedback|**stream**; same as CBC, propagates errors|
 |OFB|Output Feedback|**stream**; plain text XOR seed; no chaining, no propagation of errors|
 |CTR|Counter|**stream**; inc counter instead seed; no error propagation|
+
+# DSS - Digital Signature Standard
+
+- uses SHA-1/2/3 message digest functions
+- uses one of 3 encryption alg:
+  - DSA
+  - RSA
+  - ECDSA
+
+**meet-in-the-middle attack** --> exploits protos that use two rounds of encryption
+
+**man-in-the-middle attack** --> both parties comm w/ attacker instead w/ each other
+
+**birthday attack** --> attempt to find collisions in hash functions
+
+**replay attack** --> reuse auth requests
+
+# symmetric algorithms
+
+|Name|type|block size|key size|strength|
+|-|-|-|-|-|
+|AES|block|128|128-256|strong|
+|Blowfish||64|32-448||
+|DES|Block|64|56|very weak/obsolete|
+|3DES|block|64|112/168|moderate|
+|IDEA||64|128||
+|RC5||32, 64,128|0-2040|very strong|
+|Skipjack||64|80||
+|Twofish||128|1-256||
 
 
 {% include links.html %}
