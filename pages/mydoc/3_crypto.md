@@ -58,7 +58,7 @@ KERCKHOFFS'S PRINCIPLE --> crypto system should be secure even if everything abo
 
 **CODE**: crypto systems of symbols representing words/phrases, sometimes secret, not meant to provide confidentiality
 vs \
-**CYPHER**: always meant to hide msg's true meaning
+**CIPHER**: always meant to hide msg's true meaning
 
 ```
 **running key ciphers aka "book ciphers" ** --> the encryption key is as long as the message itself and is often chosen from a common book
@@ -75,5 +75,21 @@ vs \
 - DIFFIE-HELLMAN KEY EXCH ALG
 
 **zero-knowledge proof** --> prove knowledge of a fact w/o revealing the fact itself
+
+**split knowledge** --> no single person has sufficient privileges to compromise the security
+
+**work function (factor)** --> measure the strength of a crypto system by measuring the effort in terms of cost/time to decrypt
+
+
+# DES (3DES) modes
+
+||||
+|-|-|-|
+|ECB|Electronic Codebook|**block**; simplest, least secure; enc w/ chosen key, same block will produce same ciphertext|
+|CBC|Cipher Block Chaining|**block**; unenc text XOR w/ preceding ciphertext block; propagates errors|
+|CFB|Cipher Feedback|**stream**; same as CBC, propagates errors|
+|OFB|Output Feedback|**stream**; plain text XOR seed; no chaining, no propagation of errors|
+|CTR|Counter|**stream**; inc counter instead seed; no error propagation|
+
 
 {% include links.html %}
