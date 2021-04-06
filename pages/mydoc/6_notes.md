@@ -147,12 +147,48 @@ ISCM needs the definition of:
 
 
 
+# Conduct/facilitate security audits
 
+**AUDIT** --> provides independent assurance based on evidence (examination + testing); auditors = professionals
 
+audit types
+- **internal controls audit** --> evaluation/verification of controls
+- **compliance audit** --> comparison to established policies, standards
+- **forensic audit** --> id fraudulent & criminal activity
 
+**ENGAGEMENT LETTER** --> documents the audit plan (objective, scope, resources, target, reporting)
 
+**AUDIT EVIDENCE** --> all info used by the audotor used to arrive to the conclusions
 
+**audit examination report opinions**
+- **unqualified opinion** --> no significant reservations
+- **qualified opinion** --> minor deviations, scope limitations
+- **adverse opinion** --> target is not compliant w/ control objectives or evidence = misleading
 
+```sh
+audit report is delivered to the highest level of management
+```
+
+**audit workflow**
+
+- identify objective
+- establish work paper documentation
+- determine procedures
+- collect/evaluate evidence
+- analyse evidence & prepare report
+- talk to mgmt
+- present audit report
+
+**infosec audit standards**
+- COBIT
+- ITAF
+- **SSAE 18** --> report versions
+  - **SOC 1** - financial report
+  - **SOC 2** - controls to mitigate risks for sec, CIA & privacy (org chooses categories, but not audited controls)
+  - **SOC 3** - same as SOC 2, designed for public distribution, less details
+  - 2 types:
+    - **type 1** - a certain point in time (04/04/2021); evaluation of design/implem, not efectiveness
+    - **type 2** - design, implem & efectiveness over a period of time (6/12 months); includes tests of operational efectiveness & results
 
 
 {% include links.html %}
