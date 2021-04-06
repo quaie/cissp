@@ -11,14 +11,11 @@ folder: mydoc
 
 ### Various mindmaps
 
-[law systems](https://app.gitmind.com/doc/6ae44959){:target="_blank"}.
+[data classification](https://gitmind.com/app/doc/59745192){:target="_blank"}.
 
-[title mindmap #1](https://github.com/tomjoht/jekylldoctheme-separate-outputs).
+[data lifecycle](https://gitmind.com/app/doc/70145197){:target="_blank"}.
 
-[title mindmap #1](https://github.com/tomjoht/jekylldoctheme-separate-outputs).
-
-[title mindmap #1](https://github.com/tomjoht/jekylldoctheme-separate-outputs).
-
+[eliminate data remanence](https://gitmind.com/app/doc/63845223){:target="_blank"}.
 
 
 {% include links.html %}
