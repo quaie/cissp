@@ -136,9 +136,9 @@ ISCM needs the definition of:
 
 - collect output
 - analyze data
-- produce actionable intelligence
+- produce actionable intelligence:
   - operational metrics - vuln/threat/risk mgmt decisions
-  - KPI - Key Performance Indicators, business metrics
+  - KPI - Key Performance Indicators, business metrics - _**measure progress towards meeting performance targets**_
   - Business Intelligence - supports allignment & long-term planning
     - data warehousing - combines data from various sources over time
     - data mining - looks for trends, patterns, anonalies
