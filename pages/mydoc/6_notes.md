@@ -191,4 +191,11 @@ audit report is delivered to the highest level of management
     - **type 2** - design, implem & efectiveness over a period of time (6/12 months); includes tests of operational efectiveness & results
 
 
+**compliance examinations**
+- conducted by regulatory agencies, or on behalf of certification bodies
+- reports may include opinions, findings, recomm, next steps
+- failure --> fine, decertification, etc.
+
+
+
 {% include links.html %}
