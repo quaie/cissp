@@ -62,6 +62,8 @@ internal investigations can lead to **administrative hearing** (trial-like proce
 - **correlation** --> relate log entries
 - **aggregation** --> consolidate log entries
 - **normalization** --> standardize log details
+- **synchronization** --> NTP synced
+- **identification** --> identify normal/abusive activity
 
 # supporting processes for Configuration Mgmt
 - **Asset & Inventory Management** --> ensure CI visibility
