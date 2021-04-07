@@ -42,12 +42,20 @@ hash also the cloned media & at the end of the examination the fingerprints must
 |unallocated (free) space| clusters not allocated to a file. _**CARVING**_ = deleted files/fragments are recovered|
 |metadata|data about data (see below)|
 
-
-
-# Metadata
+**Metadata**
 - **pseudo** --> user created: comments, track changes, formulas, embedded files
 - **file system** --> file attr: date created, date last accessed
 - **application** --> appl. created: info about who wrote the docu, doc created date, specific to the application
+
+# Investigation
+
+internal investigations can lead to **administrative hearing** (trial-like process before an administrative agency), can morph into civil/criminal case
+
+**witnesses**:
+- _**factual**_ - individual who has directly participated/observed; CAN ONLY TELL THE STORY
+- _**expert**_ - person with knowledge, CAN GIVE AN OPINION
+
+
 
 # Log analysis techniques
 - **deduplication** --> remove duplicates
