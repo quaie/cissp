@@ -9,6 +9,41 @@ permalink: 7_notes.html
 folder: mydoc
 ---
 
+# Forensics
+the process of collecting/preserving/examining/analysing/presenting EVIDENCE
+
+**legal hold** --> order that suspends the modif/deletion/destruction of records & media; issued to avoid _**evidence spoliation**_ (alter/destroy evidence)
+
+**order of volatility** --> acquisition of evidence before it disappears/overwritten:
+- RAM
+- dump files
+- temp files
+- log files
+- static data (media)
+
+**data acquisition tools**
+- memory imaging --> dump RAM
+- write blocker --> intercepts device writes
+- bit stream image --> bit by bit copy preserving everything, doesn't change data
+- clone --> exact copy of the entire HDD (data, residual data, slack)
+
+```sh
+hash the media before using the tools above; HASH = FINGERPRINT
+
+hash also the cloned media & at the end of the examination the fingerprints must be the same
+```
+
+**file recovery**
+
+|tool|purpose|
+|-|-|
+|cluster|fixed length blocks of disk space (referenced in FAT)|
+|slack space|space btw end of file - end of cluster|
+|unallocated (free) space| clusters not allocated to a file. _**CARVING**_ = deleted files/fragments are recovered|
+|metadata|data about data (see below)|
+
+
+
 # Metadata
 - **pseudo** --> user created: comments, track changes, formulas, embedded files
 - **file system** --> file attr: date created, date last accessed
