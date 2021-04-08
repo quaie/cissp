@@ -141,6 +141,15 @@ AUTO WIPE --> after x failed logins, data protection
 REMOTE WIPE --> admin delete (MDM)
 ```
 
+**INCIDENT COMMUNICATION**
+- notify stakeholders
+- regular progress update
+- documentation for historic purposes
+
+```sh
+federal agencies must inform US-CERT of any cybersecurity incident
+```
+
 # Detective and preventative solutions
 
 |solution|focus|
