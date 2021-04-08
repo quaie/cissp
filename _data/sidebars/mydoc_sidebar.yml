@@ -152,6 +152,10 @@ entries:
     output: web, pdf
     folderitems:
 
+    - title: Investigations and Forensics
+      url: /7_investigations.html
+      output: web, pdf
+
     - title: Notes
       url: /7_notes.html
       output: web, pdf
