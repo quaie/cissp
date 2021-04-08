@@ -168,6 +168,10 @@ entries:
     output: web, pdf
     folderitems:
 
+    - title: Software Development Lifecycle
+      url: /8_sdlc.html
+      output: web, pdf
+
     - title: Notes
       url: /8_notes.html
       output: web, pdf
