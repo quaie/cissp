@@ -9,6 +9,18 @@ permalink: 7_notes.html
 folder: mydoc
 ---
 
+```sh
+**CHANGE MGMT** --> standard process for req/review/approve/implem changes to IT systems
+
+tool for change = RFC - Request for Change
+- description
+- expected impact
+- risk assessment
+- rollback pl an
+- identity of implementer
+- proposed schedule
+- affected CI
+```
 
 
 # supporting processes for Configuration Mgmt
