@@ -76,3 +76,6 @@ internal investigations can lead to **administrative hearing** (trial-like proce
 - **normalization** --> standardize log details
 - **synchronization** --> NTP synced
 - **identification** --> identify normal/abusive activity
+
+
+**network forensics - NETFLOW DATA** --> summarizes traffic, high-level info (IP addr, ports, timestamp + amount of data)
