@@ -89,7 +89,9 @@ SETA --> Security Education, Training & Awareness (program)
 ```
 
 ## Incident Response Phases
-
+```sh
+highest prio of first responder = containg damage through ISOLATION
+```
 - **preparation** --> establish incident mgmt capability
 - **detection** --> id IOA (indicator of attack) and IOC (indicators of compromise) - logs, SIEM, threat intel
 - **containment** --> minimize the damage (disc from network, shutdown)
