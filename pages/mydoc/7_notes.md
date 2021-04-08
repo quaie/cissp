@@ -10,7 +10,7 @@ folder: mydoc
 ---
 
 ```sh
-**CHANGE MGMT** --> standard process for req/review/approve/implem changes to IT systems
+CHANGE MGMT --> standard process for req/review/approve/implem changes to IT systems
 
 tool for change = RFC - Request for Change
 - description
@@ -20,6 +20,13 @@ tool for change = RFC - Request for Change
 - identity of implementer
 - proposed schedule
 - affected CI
+
+###
+
+CFG MGMT --> track specific device settings
+- baseline = snapshot of a system
+- versioning (+ version control)
+
 ```
 
 
