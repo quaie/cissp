@@ -79,3 +79,6 @@ internal investigations can lead to **administrative hearing** (trial-like proce
 
 
 **network forensics - NETFLOW DATA** --> summarizes traffic, high-level info (IP addr, ports, timestamp + amount of data)
+
+
+{% include links.html %}
