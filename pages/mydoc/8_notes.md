@@ -83,6 +83,9 @@ CHANGE MGMT --> manage changes made to the systems (WHY) - formal review/approva
 CONFIG MGMT --> record modifications to a prod environ (WHAT)
 ```
 
+**GANTT chart** --> bar chart that shows the interrelationships over time between projects and schedules. It provides a graphical illustration of a schedule that helps to plan, coordinate, and track specific tasks in a project.
+**PERT (Program Evaluation Review Technique)** --> project-scheduling tool used to judge the size of a software product in development and calculate the standard deviation (SD) for risk assessment. used to direct improvements to project management and software coding in order to produce more efficient software
+
 # Maturity models
 to benchmark the software development maturity
 - **CMMI - Capability Maturity Model Integration** --> defines 5 levels
