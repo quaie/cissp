@@ -9,6 +9,7 @@ permalink: 7_notes.html
 folder: mydoc
 ---
 
+
 ```sh
 CHANGE MGMT --> standard process for req/review/approve/implem changes to IT systems
 
@@ -28,6 +29,7 @@ CFG MGMT --> track specific device settings
 - versioning (+ version control)
 
 ```
+
 
 
 # supporting processes for Configuration Mgmt
