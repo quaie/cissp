@@ -176,6 +176,10 @@ entries:
       url: /8_attacks.html
       output: web, pdf
 
+    - title: Databases
+      url: /8_db.html
+      output: web, pdf
+
     - title: Notes
       url: /8_notes.html
       output: web, pdf
