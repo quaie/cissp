@@ -27,6 +27,7 @@ p&utm_name=iossmf){:target="_blank"}
 - [Thor Pedersen](https://thorteaches.com/){:target="_blank"}
 - [FRSecure free mentorship](https://frsecure.com/cissp-mentor-program/){:target="_blank"}
 - [some funny pdf](https://zineausa.com/blog/wp-content/uploads/2019/09/CISSP-STUDY.pdf){:target="_blank"}
+- [something I've stumbled upon](https://cromwell-intl.com/cybersecurity/isc2-cissp/){:target="_blank"}
 
 
 {% include links.html %}

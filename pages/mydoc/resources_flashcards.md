@@ -22,5 +22,7 @@ Use at your own risk, as content might not always be true (or up to date).
 
 - [something from Quizlet](https://quizlet.com/2519918/cissp-practice-flash-cards/){:target="_blank"}
 
+- ["cheat sheets"](https://www.comparitech.com/blog/information-security/cissp-certification-courses/){:target="_blank"}
+
 
 {% include links.html %}
