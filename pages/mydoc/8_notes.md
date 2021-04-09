@@ -174,4 +174,21 @@ _**additional in the larger SLC process:**_
 
 **AGGREGATION** --> combine benign info from several sources to reveal sensitive info
 
+# Storage types
+|||
+|-|-|
+|primary memory| directly available to CPU - most high perf|
+|secondary storage|long term, HDD, DVD|
+|virtual memory|simulate pri memory by using secondary storage (swapping)|
+|virtual storage|simulate secondary storage by use primary storage (RAM disk)|
+|random access storage|RAM/HDD - OS can request contents from any pont within the media|
+|sequential access storage|tape - requires scanning through entire media from beginning to reach a specific addr|
+|volatile storage|loses content when power down - RAM|
+|nonvolatile storage|survives a reboot - magnetic, optical, NVRAM|
+
+# Knowledge-based systems
+
+**EXPERT SYSTEMS**
+
+
 {% include links.html %}
