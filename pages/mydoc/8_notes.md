@@ -84,6 +84,7 @@ CONFIG MGMT --> record modifications to a prod environ (WHAT)
 ```
 
 **GANTT chart** --> bar chart that shows the interrelationships over time between projects and schedules. It provides a graphical illustration of a schedule that helps to plan, coordinate, and track specific tasks in a project.
+
 **PERT (Program Evaluation Review Technique)** --> project-scheduling tool used to judge the size of a software product in development and calculate the standard deviation (SD) for risk assessment. used to direct improvements to project management and software coding in order to produce more efficient software
 
 # Maturity models
@@ -119,8 +120,18 @@ systematic & detailed analysis of all interfaces, API & interaction w/ component
 - DoS
 - Elevation of privilege
 
-# Acceptance testing
+# Software testing
 
+**reasonableness check** --> ensures that values returned by software match specified criteria that are within reasonable bounds (500 kg human weight?!)
+
+software testing methods
+- black box testing --> from user's perspective, input something; NO ACCESS TO CODE
+- white box testing --> internal logical structure, CODE line by line
+- grey box testing  --> combines both above, popular for sw validation; code used to define tests, not analysed
+
+**tests for security app**
+- **STATIC** --> analyses code w/o running it
+- **DYNAMIC** --> code runs
 
 # Databases
 
