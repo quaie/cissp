@@ -83,6 +83,10 @@ CHANGE MGMT --> manage changes made to the systems (WHY) - formal review/approva
 CONFIG MGMT --> record modifications to a prod environ (WHAT)
 ```
 
+**GANTT chart** --> bar chart that shows the interrelationships over time between projects and schedules. It provides a graphical illustration of a schedule that helps to plan, coordinate, and track specific tasks in a project.
+
+**PERT (Program Evaluation Review Technique)** --> project-scheduling tool used to judge the size of a software product in development and calculate the standard deviation (SD) for risk assessment. used to direct improvements to project management and software coding in order to produce more efficient software
+
 # Maturity models
 to benchmark the software development maturity
 - **CMMI - Capability Maturity Model Integration** --> defines 5 levels
@@ -116,8 +120,18 @@ systematic & detailed analysis of all interfaces, API & interaction w/ component
 - DoS
 - Elevation of privilege
 
-# Acceptance testing
+# Software testing
 
+**reasonableness check** --> ensures that values returned by software match specified criteria that are within reasonable bounds (500 kg human weight?!)
+
+software testing methods
+- black box testing --> from user's perspective, input something; NO ACCESS TO CODE
+- white box testing --> internal logical structure, CODE line by line
+- grey box testing  --> combines both above, popular for sw validation; code used to define tests, not analysed
+
+**tests for security app**
+- **STATIC** --> analyses code w/o running it
+- **DYNAMIC** --> code runs
 
 # Databases
 
@@ -159,5 +173,43 @@ _**additional in the larger SLC process:**_
 **INFERENCE** --> deduce sensitive info based on available info
 
 **AGGREGATION** --> combine benign info from several sources to reveal sensitive info
+
+# Storage types
+|||
+|-|-|
+|primary memory| directly available to CPU - most high perf|
+|secondary storage|long term, HDD, DVD|
+|virtual memory|simulate pri memory by using secondary storage (swapping)|
+|virtual storage|simulate secondary storage by use primary storage (RAM disk)|
+|random access storage|RAM/HDD - OS can request contents from any pont within the media|
+|sequential access storage|tape - requires scanning through entire media from beginning to reach a specific addr|
+|volatile storage|loses content when power down - RAM|
+|nonvolatile storage|survives a reboot - magnetic, optical, NVRAM|
+
+# Knowledge-based AI systems
+
+**EXPERT SYSTEMS**
+- applies accumulated knowledge to future decisions
+- 2 components:
+  - _**knowledge base**_ --> contains rules, codified as series of if-then statements
+  - _**inference engine**_ --> analyses information in KB to reach a decision
+
+**MACHINE LEARNING**
+- use analytic capabilities to develop knowledge from datasets without the direct application of human insight
+- allow the computer to analyze and learn directly from data, developing and updating models of activity
+- 2 categories:
+  - _**supervised learning**_ - labeled data; dataset + correct answers and algorithm develops a model for future cases
+  - _**unsupervised learning**_ - unlabeled data; no correct answers, alg has to develop a model independently
+
+**NEURAL NETWORKS**
+- chains of computational units are used in an attempt to imitate the human brain (reasoning)
+- extension of ML, **aka deep learning / cognitive systems**
+- **Delta (learning) rule** --> neural networks are able to learn from experience
+
+```sh
+EXPERT SYSTEM --> rules stored in knowledge base
+NEURAL NETWORK --> long chain of computational decisions feed into each other and sum to produce the desired output
+```
+
 
 {% include links.html %}
