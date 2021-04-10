@@ -186,9 +186,30 @@ _**additional in the larger SLC process:**_
 |volatile storage|loses content when power down - RAM|
 |nonvolatile storage|survives a reboot - magnetic, optical, NVRAM|
 
-# Knowledge-based systems
+# Knowledge-based AI systems
 
 **EXPERT SYSTEMS**
+- applies accumulated knowledge to future decisions
+- 2 components:
+  - _**knowledge base**_ --> contains rules, codified as series of if-then statements
+  - _**inference engine**_ --> analyses information in KB to reach a decision
+
+**MACHINE LEARNING**
+- use analytic capabilities to develop knowledge from datasets without the direct application of human insight
+- allow the computer to analyze and learn directly from data, developing and updating models of activity
+- 2 categories:
+  - _**supervised learning**_ - labeled data; dataset + correct answers and algorithm develops a model for future cases
+  - _**unsupervised learning**_ - unlabeled data; no correct answers, alg has to develop a model independently
+
+**NEURAL NETWORKS**
+- chains of computational units are used in an attempt to imitate the human brain (reasoning)
+- extension of ML, **aka deep learning / cognitive systems**
+- **Delta (learning) rule** --> neural networks are able to learn from experience
+
+```sh
+EXPERT SYSTEM --> rules stored in knowledge base
+NEURAL NETWORK --> long chain of computational decisions feed into each other and sum to produce the desired output
+```
 
 
 {% include links.html %}
