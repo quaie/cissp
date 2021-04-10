@@ -30,7 +30,9 @@ folder: mydoc
   - destroy/archive info
   - media sanitization/destruction
 
-[SDLC](https://www.youtube.com/watch?v=pnS1z-KyxfM){:target="_blank"}.
+- [SDLC](https://www.youtube.com/watch?v=pnS1z-KyxfM){:target="_blank"}.
+- [SDLC](https://www.youtube.com/watch?v=Xe5qQBI8MeM){:target="_blank"}.
+- 
 
 # CASE - computer-aided software engineering
 uses programs to assist  in the creation/maint of other programs
