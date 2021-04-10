@@ -40,6 +40,15 @@ folder: mydoc
 - assume the user is logged into several sites
 - embed code in one website that sends commands to a second website --> works only if already logged it
 
+
+# XSS - cross-site scripting
+- users's browser is tricked to download a (malicious) script from a site and execute it on another site
+- if already logged in on the second site, the script wreaks havoc :)
+- requirements:
+  - reflected input (input provided by the user is later displayed to other users)
+  - unvalidated input (the input above is not validated)
+
+
 how it works:
 - attacker updates user-provided content on website_1, including <SCRIPT> and JavaScript code accessing website_2
 - victim visits website_1, browser downloads the code and the script is accessed on website_2
@@ -56,9 +65,13 @@ how it works:
 **escalation-of-privilege attacks** --> once on a system, attackers expand access to admin user
 - _**ROOTKIT**_ --> exploit known vulnerabilities in various OS
 
+**SOLUTION = VALIDATE ALL USER INPUT**
+
+
 # SQL injection
 - attacks the backend database
 - alter SQL queries by appending other commands (in the text boxes)
+
 
 ```sh
 Databases will process multiple SQL statements at the same time, provided that you end each one with a semicolon
@@ -68,6 +81,7 @@ Databases will process multiple SQL statements at the same time, provided that y
 - input validation --> check input on SERVER SIDE
 - prepared statements --> parameterized queries & stored procedures - precompile SQL code on the db server to prevent user input (only args accepted, structure = unaltered)
 - limit account privileges
+
 
 # privilege escalation
 - gains admin access on the underlying OS
@@ -116,6 +130,7 @@ Databases will process multiple SQL statements at the same time, provided that y
 **mitigation**
 - limit administrative access for the user running the app
 - patch OS and apps
+
 
 # RECONNAISSANCE ATTACKS
 - _**IP probes**_ --> ping address, see if online

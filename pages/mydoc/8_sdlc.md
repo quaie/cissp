@@ -87,10 +87,11 @@ CONFIG MGMT --> record modifications to a prod environ (WHAT)
 to benchmark the software development maturity
 - **CMMI - Capability Maturity Model Integration** --> defines 5 levels
   - _**initial**_ 
-  - _**repeatable**_
+  - _**managed**_
   - _**defined**_
   - _**quantitatively managed**_
   - _**optimizing**_
+
 
 - **IDEAL**
   - _**initiating**_
@@ -98,6 +99,7 @@ to benchmark the software development maturity
   - _**establishing**_
   - _**acting**_
   - _**learning**_
+
 
 - **SAMM - Software Assurange Maturity Model** --> open framework geared towards including sec features
 
