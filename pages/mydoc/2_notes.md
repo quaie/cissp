@@ -94,8 +94,10 @@ TOKENIZATION --> access to tokenized data, not real data
 |DISPOSITION|- data has no longer value --> properly destroyed|
 
 **Removing data remnants**
+- ERASING --> OS delete, only marks storage space as unavailable (if not overwritten, can be read)
 - CLEARING --> overwriting, data inaccessible by normal means
-- PURGING --> degaussing, media unusable by normal means
+- PURGING --> data overwritten several times
+- DEGAUSSING --> magnetic field; ineffective against SSD's
 - DESTRUCTION --> phy destruction, **irreversible
 
 **CONTROL SELECTION FRAMEWORKS**
