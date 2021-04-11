@@ -132,6 +132,10 @@ entries:
       url: /5_notes.html
       output: web, pdf
 
+    - title: Kerberos
+      url: /5_kerberos.html
+      output: web, pdf
+
     - title: Mindmaps
       url: /5_mindmaps.html
       output: web, pdf
