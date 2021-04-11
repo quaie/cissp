@@ -62,6 +62,7 @@ OBFUSCATION --> hide/replace/omit sensitive info
 MASKING --> use specific chars to hide parts of a dataset
 DATA ANONYMIZATION --> encrypt/remove PII from datasets
 TOKENIZATION --> access to tokenized data, not real data
+PSEUDONYMIZATION --> aliases to represent other data (id instead of username)
 ```
 
 **DRM - DATA rights management**
