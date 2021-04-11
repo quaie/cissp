@@ -134,4 +134,10 @@ ACCREDITATION --> data owner's acceptance of certification & residual risk, befo
 |**anonymization**|remove all relevant data to make id of the subject impossible (if done ok, GDPR is no longer relevant; data is modified|
 |**pseudonymization**|use aliases to represent other data|
 
+# Security Test & Evaluation Program
+- req'd for certif & accred of all US gov agencies according to FISMA
+- management controls --> risk mgmt & management of info sec (perform risk assess/ensure inventory of all assets exists)
+- operational controls --> processes exec/implem by people (sec training program/AUP signed)
+- technical controls --> processes implem/exec by hw/sw mech. (change passwd regularly/logon display)
+
 {% include links.html %}
