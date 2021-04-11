@@ -1,7 +1,7 @@
 ---
 title: Youtube
 #keywords: documentation theme, jekyll, technical writers, help authoring tools, hat replacements
-last_updated: 3 Apr 2021
+last_updated: 11 Apr 2021
 tags: [resources]
 summary: "Youtube videos/playlists"
 sidebar: mydoc_sidebar
@@ -21,6 +21,7 @@ folder: mydoc
 - [How to study the dry CISSP exam materials](https://www.youtube.com/watch?v=JLIp65FY4oY){:target="_blank"}
 - [Pass 2019 CISSP First Time!](https://www.youtube.com/watch?v=aXC9QYfETIg){:target="_blank"}
 - [Inside Cloud and Security](https://www.youtube.com/channel/UCAr0yk0um7lwLjmrKfzwyig){:target="_blank"}
+- [how to think like a manager - luke ahmed](https://www.youtube.com/watch?v=dq5eodSz_0k&t=631s){:target="_blank"}
 
 
 
