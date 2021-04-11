@@ -104,6 +104,17 @@ operates in 2.4 GHz, uses FHSS and AFH (Adaptive Freq Hopping) - switches conges
 |Red Fang|find non-discoverable Bluetooth devices|
 |bluesnarfing|theft of data via Bluetooth|
 
+|layer|proto|
+|-|-|
+|7 - application|HTTP, FTP, TFTP, DHCP, DNS, SMTP, POP3. telnet, SSH|
+|6 - presentation|GIF, JPEG, MPEG|
+|5 - session|PAP, RPC|
+|4 - transport|UDP, TCP|
+|3 - network|IP, RIP, OSPF|
+|2 - data link|ethernet, frame relay, token ring, PPP, CDP|
+|1 - physical||
+
+
 # TRICKS
 
 HTTPS encrypts @ layer 4, using SSL/TLS; the entire HTTPS message; S-HTTP - never widely used, encrypts only data @ layer 7

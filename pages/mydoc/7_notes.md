@@ -9,6 +9,18 @@ permalink: 7_notes.html
 folder: mydoc
 ---
 
+**cfg mgmt**
+- baselining
+- patch mgmt
+- vuln mgmt
+
+**chg mgmt**
+- request chg
+- review chg
+- approve/reject chg
+- test chg
+- schedule/implement chg
+- document chg
 
 ```sh
 CHANGE MGMT --> standard process for req/review/approve/implem changes to IT systems
