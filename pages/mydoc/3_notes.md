@@ -64,4 +64,12 @@ TOCTTOU attacks, race condition exploits, and communication disconnects are know
 
 **Functional order of security controls** --> DETERRENCE - DENIAL - DETECTION - DELAY
 
+# security modes for systems processing classified information
+
+|mode|details|
+|-|-|
+|**dedicated**|clearance + approval + need to know for ALL INFO|
+|**system high**|clearance + approval for ALL INFO; need to know for OWN INFO|
+|**compartmented**|clearance for ALL INFO|approval + need to know for OWN INFO|
+|**multilevel**|clearance + approval + need to know for OWN INFO|
 {% include links.html %}
