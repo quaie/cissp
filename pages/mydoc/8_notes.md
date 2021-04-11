@@ -133,6 +133,7 @@ software testing methods
 - white box testing --> internal logical structure, CODE line by line
 - grey box testing  --> combines both above, popular for sw validation; code used to define tests, not analysed
 
+
 **tests for security app**
 - **STATIC** --> analyses code w/o running it
 - **DYNAMIC** --> code runs
