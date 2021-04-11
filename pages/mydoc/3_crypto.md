@@ -151,8 +151,16 @@ vs \
 
 
 
+# salt'n'pepa
 
+**SALT**
+- unique, NON-SECRET value appended to pwd before hashing
+- stored in the db
+- UNIQUE FOR EACH USER
 
-
+**PEPPER**
+- SECRET value appended to pwd before hashing
+- SAME FOR ALL USERS
+- NOT stored in the db, but in cfg file/hardcoded 
 
 {% include links.html %}
