@@ -43,11 +43,15 @@ folder: mydoc
 
 **Smurf** --> ICMP echo request --> sent to the broadcast on victim's behalf (faked) --> all devices in the network answer --> DDoS
 
-**Fraggle** --> uses UDP, DDoS like smurf
+**Fraggle** --> uses UDP, echo & chargen packets, DDoS like smurf
 
 **ICMP redirect** --> alter the routing table of the host that receives the message using ICMP redirect packets (type 5, used to specify better routing paths)
 
 **ping scanning** --> pings every IP address to see if it's alive
+
+**LAND - LAN Denial** --> DoS, malformed IP src/dst/port = same
+
+**Teardrop** --> DoS, several large overlapping IP fragments sent --> reassembly = crash
 
 # DNS attacks
 
