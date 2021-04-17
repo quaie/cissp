@@ -60,6 +60,18 @@ folder: mydoc
 
 **ISOLATION** --> process running confined through the use of memory bounds
 
+# Describing vulnerabilitites
+needs a common set of standards to provide a common language for describing/evaluating vulns.
+
+**SCAP - Security COntent Automation Protocol**
+- common framework, w/ several components
+  - _**Common Vulnerabilities and Exposures (CVE)**_ - naming system for describing security vulnerabilities.
+  - _**Common Vulnerability Scoring System (CVSS)**_ -  standardized scoring system for describing the severity of security vulnerabilities.
+  - _**Common Configuration Enumeration (CCE)**_  -  naming system for system configuration issues.
+  - _**Common Platform Enumeration (CPE)**_  -  naming system for operating systems, applications, and devices.
+  - _**Extensible Configuration Checklist Description Format (XCCDF)**_ - language for specifying security checklists.
+  - _**Open Vulnerability and Assessment Language (OVAL)**_ - language for describing security testing procedures
+
 
 
 {% include links.html %}
