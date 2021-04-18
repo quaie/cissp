@@ -122,4 +122,14 @@ TOCTTOU attacks, race condition exploits, and communication disconnects are know
 - COSO
 - ISACA Risk IT
 
+# Emanations
+any source of radio waves, light, sound, vibration, electrical that radiate from a system and can be eavesdropped
+
+protect against emanation:
+- **SHIELDING** (Tempest) --> block the emanation (Faraday, walls, insulation, etc.)
+- **WHITE NOISE** --> emit noise to block the emanation
+- **CONTROL ZONE** --> physical zone is very secure
+
+
+
 {% include links.html %}
