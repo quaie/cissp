@@ -118,6 +118,16 @@ operates in 2.4 GHz, uses FHSS and AFH (Adaptive Freq Hopping) - switches conges
 |2 - data link|ethernet, frame relay, token ring, PPP, CDP|
 |1 - physical||
 
+# Firewalls
+
+|type|descr|
+|-|-|
+|static pkt filtering |(aka screening routers) examines msg headers - src/dst/port; **LAYER 3**|
+|app-level gateway|(aka proxy) copies pkt from netw to another; change src/dst addr; based on content **LAYER 7**|
+|circuit-level gateway|establish comm sessions btw trusted partners; based on circuit, not content; **LAYER 5**|
+|stateful inspection|(aka dynamic) evaluate state/context of connection; **LAYER 3+4**|
+|deep pkt inspection (DPI)|filter the payload, can block domains, malware, spam from payload; **LAYER 7**|
+|NG firewalls|MFD - multifunction device: IDS, IPS, NAT, VPN, antivir, etc|
 
 # TRICKS
 
