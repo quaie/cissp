@@ -29,6 +29,7 @@ p&utm_name=iossmf){:target="_blank"}
 - [some funny pdf](https://zineausa.com/blog/wp-content/uploads/2019/09/CISSP-STUDY.pdf){:target="_blank"}
 - [something I've stumbled upon](https://cromwell-intl.com/cybersecurity/isc2-cissp/){:target="_blank"}
 - [quite old, but it's worth a skimming](https://josephdelgadillo.com/cissp-testprep-cheatsheet/){:target="_blank"}
+- [some cheat sheets](https://www.comparitech.com/blog/information-security/cissp-certification-courses/){:target="_blank"}
 
 
 {% include links.html %}
