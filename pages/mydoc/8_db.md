@@ -55,6 +55,10 @@ folder: mydoc
 
 **Open Database Connectivity (ODBC)** --> proxy btw app - backend db, more freedom for programmers to interact w/ db
 
+|.|.|
+|-|-|
+|REPLICATION|cpoy data btw live mirrors of a single db; backup or HA/redundancy; BOTH visible to users|
+|SHADOWING|copy data from live db to a backup, read-only db; USERS don't see the shadow|
 
 
 {% include links.html %}
