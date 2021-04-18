@@ -39,7 +39,7 @@ KERCKHOFFS'S PRINCIPLE --> crypto system should be secure even if everything abo
 |term|meaning|
 |-|-|
 |**_cryptography_**|creating and implementing secret codes and ciphers|
-|**_cryptanalysi_s**|study of methods to defeat codes and ciphers|
+|**_cryptanalysis_**|study of methods to defeat codes and ciphers|
 |**_cryptology_**|cryptography and cryptanalysis|
 |**_cryptosystems_**|Specific implementations of a code or cipher in hardware and software|
 
