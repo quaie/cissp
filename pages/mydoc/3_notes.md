@@ -72,4 +72,54 @@ TOCTTOU attacks, race condition exploits, and communication disconnects are know
 |**system high**|clearance + approval for ALL INFO; need to know for OWN INFO|
 |**compartmented**|clearance for ALL INFO|approval + need to know for OWN INFO|
 |**multilevel**|clearance + approval + need to know for OWN INFO|
+
+
+# Models & frameworks
+
+**Enterprise architecture security models**
+- Zachman --> 6 questions vs 6 views matrix
+- SABSA --> like Zachman, risk-driven
+- TOGAF --> break org into components to build sec
+
+**Security models**
+- **_lattice-based_** (layers of confid/integrity w/ rules to write/read between them(
+  - Bell-LaPadula --> confidentiality
+    - only read down / only write up
+  - Biba --> integrity
+    - only read up / only write down
+  - Lipner implementation --> both confid & integrity
+- **_rule-based models_**
+  - Clark-Wilson --> integrity
+    - defines 3 goals of integrity: well formed transactions, separation of duties & access triple SUBJECT-PROGRAM-OBJECT
+  - Brewer-Nash (Chinese Wall) --> prevent conflict of interest
+  - Graham-Denning --> rules specifying subj accessing object
+  - Harrison-Rizzo-Ullman --> enhancement of Graham-Denning 
+
+**Security frameworks**
+- ISO 27001 --> best practice recommendations for ISMS (controls across domains, defining best practices) - can be certified
+- ISO 27002 --> implementation guidance for 27001 - cannot be certified here
+- NIST 800-53 --> federal agencies
+- COBIT --> for IT audit
+- COSO --> focused on financial reporting controls
+- ITIL --> framework of best practices for delivering IT Services
+- HIPAA --> safeguarding PHI
+- SOX --> top mgmt must certify the accuracy of financial information; financial records
+
+**Privacy requlation**
+- GDPR
+
+**Risk framework**
+- NIST 800-37 - RMF - Risk management framework
+  - structured process to manage security & privacy risk
+  - 6 steps:
+    - categorise information systems   
+    - select sec controls
+    - implement sec controls
+    - assess sec contr
+    - authoriss IS
+    - monitor
+- ISO 31000
+- COSO
+- ISACA Risk IT
+
 {% include links.html %}
