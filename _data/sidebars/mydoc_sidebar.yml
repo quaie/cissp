@@ -120,6 +120,10 @@ entries:
       url: /4_notes.html
       output: web, pdf
 
+    - title: Network stuff
+      url: /4_network_stuff.html
+      output: web, pdf
+
     - title: Mindmaps
       url: /4_mindmaps.html
       output: web, pdf

@@ -25,6 +25,7 @@ few mantras which will always be true:
 the most important question --> HOW, WHO, WHY, WHEN
 ```
 
+**Abernathy & McMillan, CISSP Cert Guide 2018** --> understand the law's name, purpose and the industry it applies 
 
 
 {% include links.html %}

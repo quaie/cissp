@@ -80,6 +80,11 @@ water and electricity do not mix !!!
 
 **piggybacking** --> follow someone through a secure gate w/o being id/auth personally
 
+**sensors for glass**
+- shock --> built in the window
+- glass-break --> mic that listens for sounds
+
+air quality - no dust + **_positive pressurization_** (DC room has a bigger pressure, when door is opened the air should flow OUT, not IN)
 
 
 {% include links.html %}

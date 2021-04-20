@@ -1,13 +1,29 @@
 ---
-title: Domain 4 Notes
+title: Network stuff
 tags: [domain_4]
 ##keywords: release notes, announcements, what's new, new features
 last_updated: Mar 23, 2021
 summary: "Notes for  Domain 4"
 sidebar: mydoc_sidebar
-permalink: 4_notes.html
+permalink: 4_network_stuff.html
 folder: mydoc
 ---
+
+# Encapsulation
+takes info from a higher layer and adds a header to it
+
+**de-encapsulation** --> removes headers from PDUs and passes the data to the next higher OSI layer
+
+data flow --> **7** - encapsulation - **1** --> tx over network --> **1** - de-encapsulation - **7**
+
+|layer|PDU|
+|-|-|
+|4 - transport|segment|
+|3 - network|packet|
+|2 - data link|frame|
+|1 - physical|bit|
+
+
 
 **VPN screen scraper** = app that allows an attacker to capture what is on the user's display (abernathy?)
 
@@ -43,15 +59,11 @@ folder: mydoc
 
 **Smurf** --> ICMP echo request --> sent to the broadcast on victim's behalf (faked) --> all devices in the network answer --> DDoS
 
-**Fraggle** --> uses UDP, echo & chargen packets, DDoS like smurf
+**Fraggle** --> uses UDP, DDoS like smurf
 
 **ICMP redirect** --> alter the routing table of the host that receives the message using ICMP redirect packets (type 5, used to specify better routing paths)
 
 **ping scanning** --> pings every IP address to see if it's alive
-
-**LAND - LAN Denial** --> DoS, malformed IP src/dst/port = same
-
-**Teardrop** --> DoS, several large overlapping IP fragments sent --> reassembly = crash
 
 # DNS attacks
 
@@ -119,19 +131,8 @@ operates in 2.4 GHz, uses FHSS and AFH (Adaptive Freq Hopping) - switches conges
 |1 - physical||
 
 
-# Firewalls
-
-|type|descr|
-|-|-|
-|static pkt filtering |(aka screening routers) examines msg headers - src/dst/port; **LAYER 3**|
-|app-level gateway|(aka proxy) copies pkt from netw to another; change src/dst addr; based on content **LAYER 7**|
-|circuit-level gateway|establish comm sessions btw trusted partners; based on circuit, not content; **LAYER 5**|
-|stateful inspection|(aka dynamic) evaluate state/context of connection; **LAYER 3+4**|
-|deep pkt inspection (DPI)|filter the payload, can block domains, malware, spam from payload; **LAYER 7**|
-|NG firewalls|MFD - multifunction device: IDS, IPS, NAT, VPN, antivir, etc|
-
-
 # TRICKS
 
 HTTPS encrypts @ layer 4, using SSL/TLS; the entire HTTPS message; S-HTTP - never widely used, encrypts only data @ layer 7
+
 {% include links.html %}

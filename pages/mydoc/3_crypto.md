@@ -39,7 +39,7 @@ KERCKHOFFS'S PRINCIPLE --> crypto system should be secure even if everything abo
 |term|meaning|
 |-|-|
 |**_cryptography_**|creating and implementing secret codes and ciphers|
-|**_cryptanalysi_s**|study of methods to defeat codes and ciphers|
+|**_cryptanalysis_**|study of methods to defeat codes and ciphers|
 |**_cryptology_**|cryptography and cryptanalysis|
 |**_cryptosystems_**|Specific implementations of a code or cipher in hardware and software|
 
@@ -151,8 +151,21 @@ vs \
 
 
 
+# salt'n'pepa
 
+**SALT**
+- unique, NON-SECRET value appended to pwd before hashing
+- stored in the db
+- UNIQUE FOR EACH USER
 
+**PEPPER**
+- SECRET value appended to pwd before hashing
+- SAME FOR ALL USERS
+- NOT stored in the db, but in cfg file/hardcoded 
 
+**QUANTUM COMPUTING**
+- no additional advantage over classical in terms of computability
+- enable design of novel algorithms 
+- **_Shor's alg endangers most PKI algorithms_**
 
 {% include links.html %}

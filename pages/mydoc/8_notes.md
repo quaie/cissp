@@ -180,6 +180,7 @@ _**additional in the larger SLC process:**_
 **AGGREGATION** --> combine benign info from several sources to reveal sensitive info
 
 # Storage types
+
 |||
 |-|-|
 |primary memory| directly available to CPU - most high perf|

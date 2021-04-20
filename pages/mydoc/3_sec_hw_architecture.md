@@ -24,12 +24,12 @@ folder: mydoc
 - BLOCKED --> waiting for i/o
 - TERMINATE --> completed
 
-|.|.|
-|-|-|
-|MULTITHREADING| CPU/single core can execute multiple processes/thread concurrently|
-|MULTIPROCESSING|computer using more than 1 CPU for a task|
-|MULTITASKING|tasks sharing a common resource (1 CPU)|
-|MULTIPROGRAMMING|computer running more than one program at a time|
+|.|.|.|
+|-|-|-|
+|MULTITHREADING| CPU/single core can execute multiple processes/thread concurrently|divides CPU time among child processes (aka threads)|
+|MULTIPROCESSING|computer using more than 1 CPU for a task|divide load among multiple CPUs|
+|MULTITASKING|tasks sharing a common resource (1 CPU)|divide CPU time among multiple _**processes**_|
+|MULTIPROGRAMMING|computer running more than one program at a time||
 
 **Memory protection** --> prevents one process from affecting the CIA of another; used in multi-user/multitasking envs
 
@@ -59,6 +59,18 @@ folder: mydoc
 **BOUNDS** --> limits of memory a process cannot exceed (read/write)
 
 **ISOLATION** --> process running confined through the use of memory bounds
+
+# Describing vulnerabilitites
+needs a common set of standards to provide a common language for describing/evaluating vulns.
+
+**SCAP - Security COntent Automation Protocol**
+- common framework, w/ several components
+  - _**Common Vulnerabilities and Exposures (CVE)**_ - naming system for describing security vulnerabilities.
+  - _**Common Vulnerability Scoring System (CVSS)**_ -  standardized scoring system for describing the severity of security vulnerabilities.
+  - _**Common Configuration Enumeration (CCE)**_  -  naming system for system configuration issues.
+  - _**Common Platform Enumeration (CPE)**_  -  naming system for operating systems, applications, and devices.
+  - _**Extensible Configuration Checklist Description Format (XCCDF)**_ - language for specifying security checklists.
+  - _**Open Vulnerability and Assessment Language (OVAL)**_ - language for describing security testing procedures
 
 
 

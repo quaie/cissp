@@ -222,6 +222,10 @@ _**types**_:
 - ECPA --> Electronic Communications Privacy Act
 - CALEA --> Comms Assistance for Law Enforcement Act
 
-
+```sh
+awareness = WHAT
+sec training = HOW
+sec education = WHY
+```
 
 {% include links.html %}
