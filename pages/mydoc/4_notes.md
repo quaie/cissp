@@ -33,6 +33,10 @@ folder: mydoc
 
 **MITM** --> intercepts legitimate traffic between 2, attacker controls info flow & can alter comm
 
+# Remote access
+- Caller ID --> dial in & auth, server checks if incoming number is correct
+- callback --> dial in & auth, server hangs up and calls back to a predefined number
+
 **MAC flooding** --> overflow the MAC table w/ many entries, transforming the device into a hub-like device
 
 **ARP poisoning** --> within VLAN, fools routers into learning false MAC addr; then pose as that device and do MITM
