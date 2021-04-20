@@ -163,4 +163,9 @@ vs \
 - SAME FOR ALL USERS
 - NOT stored in the db, but in cfg file/hardcoded 
 
+**QUANTUM COMPUTING**
+- no additional advantage over classical in terms of computability
+- enable design of novel algorithms 
+- **_Shor's alg endangers most PKI algorithms_**
+
 {% include links.html %}
