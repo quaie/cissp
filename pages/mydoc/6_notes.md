@@ -182,7 +182,7 @@ audit report is delivered to the highest level of management
 **infosec audit standards**
 - COBIT
 - ITAF
-- **SSAE 18** --> report versions
+- **SSAE 18** [Service Organization Controls](https://www.youtube.com/watch?v=RHd5OI4nXt8){:target="_blank"} --> report versions
   - **SOC 1** - financial report
   - **SOC 2** - controls to mitigate risks for sec, CIA & privacy (org chooses categories, but not audited controls)
   - **SOC 3** - same as SOC 2, designed for public distribution, less details

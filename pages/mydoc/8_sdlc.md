@@ -9,6 +9,8 @@ permalink: 8_sdlc.html
 folder: mydoc
 ---
 
+[interesting video](https://www.youtube.com/watch?v=i-QyW8D3ei0)
+
 # SDLC - systems development life cycle
 - system development model
 - in the context of CISSP --> secure systems development LC
