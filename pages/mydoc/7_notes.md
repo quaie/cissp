@@ -296,4 +296,13 @@ aka VMM - Virtual Machine Monitor
 - be convincing
 - be admissible
 
+# categories of disruption
+
+|||
+|-|-|
+|**non-disaster**|disruption in service (device malfunction/user error)|
+|**disaster**|entire facility unusable for 1/more day(s)|
+|**catastrophe**|destroys facility; req short+long term solution|
+
+
 {% include links.html %}
