@@ -131,6 +131,26 @@ operates in 2.4 GHz, uses FHSS and AFH (Adaptive Freq Hopping) - switches conges
 |1 - physical||
 
 
+# Isolation
+segments/devices need to be segregated from environment, as not to cause harm/to be harmed
+
+|||
+|-|-|
+|LOGICAL|VLAN|
+|AIR-GAPPED|isolated from any untrusted network|
+|PHYSICAL|completely disc. from ANY other network|
+|CLEAN ROOM|physically isolated network located in a secure room/location|
+
+# Security device placement
+directly affects effectiveness
+
+|||
+|-|-|
+|APPLIANCE|self-contained (hw/sw) network resource|
+|SENSOR|device that collects info about netw/host; can report/produce events/control|
+|COLLECTOR|performs targeted collection from distributed data & feed it into aggregation/correlation engine|
+
+
 # TRICKS
 
 HTTPS encrypts @ layer 4, using SSL/TLS; the entire HTTPS message; S-HTTP - never widely used, encrypts only data @ layer 7

@@ -296,4 +296,17 @@ aka VMM - Virtual Machine Monitor
 - be convincing
 - be admissible
 
+# categories of disruption
+
+|||
+|-|-|
+|**non-disaster**|disruption in service (device malfunction/user error)|
+|**disaster**|entire facility unusable for 1/more day(s)|
+|**catastrophe**|destroys facility; req short+long term solution|
+
+**BCP/DRP MOU/MOA = Memorandum of Understanding/Agreement**
+- legal document acknowledging the responsibility for a certain activity
+- "critical stuff is missing, was supposed to be here; what could have fixed the problem?"
+
+
 {% include links.html %}
