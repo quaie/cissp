@@ -130,6 +130,7 @@ operates in 2.4 GHz, uses FHSS and AFH (Adaptive Freq Hopping) - switches conges
 |2 - data link|ethernet, frame relay, token ring, PPP, CDP|
 |1 - physical||
 
+
 # Isolation
 segments/devices need to be segregated from environment, as not to cause harm/to be harmed
 
