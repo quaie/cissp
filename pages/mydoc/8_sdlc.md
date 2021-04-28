@@ -14,6 +14,19 @@ folder: mydoc
 # SDLC - systems development life cycle
 - system development model
 - in the context of CISSP --> secure systems development LC
+
+(below the simple description from OSG)
+
+|||
+|-|-|
+|conceptual definition|bosses, 2 paragraphs on what it should do|
+|functional req|dev team, all inputs/behavior/outputs|
+|sec control specification|security from beginning- auth, encr, etc.|
+|design review|all pieces put together - all stakeholders must agree|
+|code review|meetings to check if the code really implements what has been agreed|
+|system test|test the code for production|
+|maintenance & chg mgmt|code operational, any modification via change mgmt|
+
 - **prepare a sec plan**
 - **initiation**
   - conduct a sensitivity assessment
